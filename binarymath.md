@@ -39,22 +39,86 @@ print("The number {} in binary is {}".format(n,b))
 
 ```
 
+Output would look something like this:
+
+```
+
+What decimal number would you like to convert to binary?83
+User input:  83
+The number 83 in binary is 01010011
+
+```
+
+In English terms, we can convert decimal numbers to binary numbers by repeatedly dividing the decimal number inputted until its quotient is zero. We then reverse the order of the remainders in order to get that decimal number in binary. Here is what the process would like if you were to do this yourself, using the number 106 as an example:
+
+| Decimal Number | Quotient | Remainder |
+|------------------|----------|-----------|
+| 106 | N/A | N/A |
+| 106/2 | 53 | 0 |
+| 53/2 | 26 | 1 |
+| 26/2 | 13 | 0 |
+| 13/2 | 6 | 1 |
+| 6/2 | 3 | 0 |
+| 3/2 | 1 | 1 |
+| 1/2 | 0 | 1 |
+
+| Decimal Number | Decimal Number in Binary |
+|----------------|--------------------------|
+| 106 | 1101010 |
 
 
+You may have noticed that we ended up having to reverse the order the remainders appeared in order to get the number 106 into binary. This is done due to the concepts of the least significant bit (LSB) and the most significant bit (MSB). The LSB corresponds to the rightmost digit of the binary number while the MSB corresponds to the leftmost digit. Therefore, in order to get the correct order of 0s and 1s, we need to reverse the order of the remainders. 
 
-One way to go from decimal numbers to binary numbers is to repeatedly divide the decimal number given until its quotient is zero. We then reverse the order of the remainders in order to get that decimal number in binary. For example, if we wanted to convert the decimal number 83 to binary, we can do so as demonstrated below:
 
-83/2 = 41 r 1
-41/2 = 20 r 1
-20/2 = 10 r 0
-10/2 = 5 r 0
-5/2 = 2 r 1
-2/2 = 1 r 0
-1/2 = 0 r 1 
+### How Do We Convert Binary Numbers to Decimal Numbers? (Sample Code)
 
-The order of the remainders is technically 1100101; however, we need to reverse this, so it should now be 1010011. Therefore, 83 converted to binary is 1010011
+```
 
-1010011
+def convertToDecimal(b):
+    # n represents the decimal number
+    n = 0
+    
+    # p represents the position (power) of the binary digit (2 raised to the 0, to the 1st, to the 2nd, etc.)
+    p = 0
+    
+    # goes through the binary digits from right to left
+    for digit in reversed(b):
+        if digit == '1':
+            n += 2 ** p
+        p += 1
+    
+    return n
+
+b = input("What binary number would you like to convert to decimal? ")
+print("User input: ", b)
+n = convertToDecimal(b)
+print("The number {} in decimal is {}".format(b, n))
+
+```
+
+Output would look something like this:
+
+```
+
+What binary number would you like to convert to decimal? 10101010
+User input:  10101010
+The number 10101010 in decimal is 170
+
+```
+In English, we can convert binary numbers back to their decimal numbers by using each bit's corresponding position and power of 2. For example, in converting 10101010 to decimal, for the rightmost '1', we would have 2 raised to the power of 1 and therefore add it to any decimal number that we obtain from doing this. Once we have done this for all of the 1s, we add up all the numbers we get from raising 2 to whichever power to get our decimal number. Below is an illustration of what this would look like if you were to do it yourself, using 11001010 as an example:
+
+|---|---|---|---|---|---|---|---|---|
+| **Binary Digit** | 1 | 1 | 0 | 0 | 1 | 0 | 1 | 0 |
+| **Power of 2** | 2^7 | 2^6 | 0 | 0 | 2^3 | 0 | 2^1 | 0 |
+| **Decimal Number** | 128 | 64 | 0 | 0 | 8 | 0 | 2 | 0 |
+
+```
+128+64+8+2 = 202
+Therefore, 11001010 in decimal is 202.
+
+```
+
+## Simulations/Interactions With Binary Math
 
 
 
