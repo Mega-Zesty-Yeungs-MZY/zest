@@ -18,9 +18,7 @@
 </html>
 
 <style>
-    body {
-    background-image: url('https://www.example.com/background.jpg');
-    background-size: cover;
+body {
     font-family: Arial, sans-serif;
 }
 
