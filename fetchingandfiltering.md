@@ -4,14 +4,26 @@
 - We can define a function containing a fetch() request
 - If we want to retrieve data with a button press, we can create a button in html that calls the function containing a fetch() request.
 
-```
+```html
 <body>
     <button onclick="read()">Retrieve Data</button>
+    <p id="confirmation"></p>
+</body>
+```
+
+```javascript
+function read() {
+    document.getElementById("confirmation").innerText="Read function has been called";
+}
+```
+
+<body>
+    <button onclick="read()">Retrieve Data</button>
+    <p id="confirmation"></p>
 </body>
 
 <script>
-    fuction read() {
-        console.log("Read function has been called")
+    function read() {
+        document.getElementById("confirmation").innerText="Read function has been called";
     }
 </script>
-```
