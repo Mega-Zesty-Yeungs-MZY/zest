@@ -23,7 +23,7 @@ bundle exec jekyll serve -H 0.0.0.0 -P 4001 # -H and -P are optional
 sh <(curl -L https://nixos.org/nix/install) # installs nix requires root password
 
 # restart terminal as shell is updated, then cd ~/vscode/project-dir assuming you have it cloned
-
+ 
 nix-shell # start shell, aka nix os virtual environment
 code . # activate VSCode in current directory
 
