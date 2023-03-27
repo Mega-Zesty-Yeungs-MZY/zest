@@ -62,7 +62,7 @@ To better learn about how code works, we need to take a look at what is happenin
 - Developing backend 3rd party APIs involves creating APIs that can be used by other applications or services.
 - Python is a popular language for developing backend APIs due to its simplicity, ease of use, and vast collection of libraries.
 - Flask is a lightweight and flexible web framework that can be used for developing APIs in Python.
-- Pandas is a powerful library for data analysis and manipulation in Python. It can be used to clean and preprocess data before serving it through the API.
+- Pandas is a powerful library for data analysis and manipulation in Python. It can be used to clean and pre-process data before serving it through the API.
 - When developing a backend API, it is important to define the endpoints and methods that the API will support. Developers can use Flask's routing system to define endpoints and methods such as GET, POST, PUT, and DELETE.
-- Data analysis and cleaning are important steps in preparing data for the API. Pandas can be used to load, clean, preprocess, and transform data into a format that is suitable for the API's users.
+- Data analysis and cleaning are important steps in preparing data for the API. Pandas can be used to load, clean, pre-process, and transform data into a format that is suitable for the API's users.
 - API security is also an important consideration. Developers can use tools like Flask-JWT or OAuth2 to secure the API and protect user data.
