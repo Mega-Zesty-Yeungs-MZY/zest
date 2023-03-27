@@ -120,6 +120,65 @@ Therefore, 11001010 in decimal is 202.
 
 ## Simulations/Interactions With Binary Math
 
+While converting decimal numbers to binary numbers and vice versa is an important use of binary math, binary numbers also allow us to create interesting simulations and interactions for the user to play around with. For example, out on the Internet, there are several binary calculators available to everyone. They allow you to add, subtract, multiply, and divide binary numbers!
+
+
+Play around with the buttons below, which allow you to input two binary numbers and provides you with the output of the sum. Write down any notes/observations about this and see if you can get an idea of how we can add binary numbers together (required). Try to make your best guess before moving on!
+
+{% include binarymath.html %}
+
+
+There are actually rules that need to be followed when it comes to adding up binary numbers. Below is a table displaying these rules. 
+
+
+**Adding Binary Numbers Rules**
+
+|---------|---|
+| **1+1** | 0 (carry a 1) |
+| **1+0** | 1 | 
+| **0+1** | 1 | 
+| **0+0** | 0 |
+
+
+## Hacks
+
+
+**Question**: How do you think we should find the difference of two binary numbers? The product? The quotient? What rules need to be followed for those operations? Look into all of this on the Internet and note down important information you find. 
+
+
+
+Based on what you find online, fill out the tables below for subtracting, multiplying, and dividing binary numbers.
+
+
+**Subtracting Binary Numbers Rules**
+
+|---------|---------|---------|---------|
+| **1-1** | **1-0** | **0-1** | **0-0** |
+|    ?     |     ?    |     ?    |     ?    |
+
+
+**Multiplying Binary Numbers Rules**
+
+
+|---------|---------|---------|---------|
+| **1x1** | **1x0** | **0x1** | **0x0** |
+|    ?     |     ?    |    ?     |    ?     |
+
+
+**Dividing Binary Numbers Rules**
+
+|---------|---------|
+| **1/1** | **0/1** |
+|     ?    |    ?    |        
+
+
+**BONUS**: Create buttons similar to the ones above that allow you to subtract, multiply, and/or divide binary numbers and returns the desired result in both binary and decimal. 
+
+
+
+
+
+
 
 
 
