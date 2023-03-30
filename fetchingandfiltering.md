@@ -27,3 +27,15 @@ function read() {
         document.getElementById("confirmation").innerText="Read function has been called";
     }
 </script>
+
+- Here is an example of using fetch to read and putting the data through a function
+
+```javascript
+fetch('http://localhost:8080')
+  .then((response) => response.json())
+  .then((data) => this.filterdata(data));
+
+function filterdata(data) {
+    console.log(data)
+}
+```
