@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="tutorialWrapper">
+    <div class="tutorialBtn" id="tutorialBtn">Click to find tutorials on big idea 1</div> 
+    <div class="tutorialWrapper" id="tutorialWrapper">
         <!-- ! the wrapper have prefix of the website page they represent. -->
         <!-- ! For example: bmath represents binary math tutorial page -->
         <div class="gpWrapper">
