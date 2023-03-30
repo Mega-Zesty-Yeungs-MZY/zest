@@ -287,7 +287,7 @@ java: `true^false`
     <td>FALSE</td>
     <td>FALSE</td> 
     <td>FALSE</td>
-  </tr>
+  </tr> 
 </table>
 
 ### XNOR
@@ -326,5 +326,4 @@ java: `!(true^false)`
   </tr>
 </table>
 
-
-
+{% include binarylogic.html %}
