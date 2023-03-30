@@ -51,7 +51,7 @@
             <div class="fetch">
                 <h2>Want to learn github pages?</h2>
                 <p>Click below to keep learn!</p>
-                <a href="https://mega-zesty-yeungs-mzy.github.io/githubpages" class="button">Track</a>
+                <a href="https://mega-zesty-yeungs-mzy.github.io/zest/githubpages" class="button">Track</a>
             </div>
         </div>
     </div>

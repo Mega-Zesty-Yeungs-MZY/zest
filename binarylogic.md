@@ -326,4 +326,4 @@ java: `!(true^false)`
   </tr>
 </table>
 
-{% include binarylogic.html %}
+<!-- {% include binarylogic.html %} -->
