@@ -1,0 +1,73 @@
+<html>
+    <body>
+        <script>
+            let index = -1;
+            let answer = 0; 
+            let questions = [
+                "What is the following notation known as? X(Y')=?",
+                "!(true)&&(false) = ? what?",
+                "What is the following notation known as (X^Y)'",
+                "not ((((true) and not (false)) ^ (false) ^ true) && false) (remember PEMDASNAO!)",
+                "1 and not 0 and 0 is?",
+                "Write nand in XY notation (no spaces or parenthesis)",
+                "",
+                "",
+                "",
+                "",
+                ""
+                ]
+            let answers = [
+                "a",
+                "b",
+                "c",
+                "d",
+                "e",
+                "f",
+                "g",
+                "h",
+                "i",
+                "j"
+            ]
+            function onSubmit(){
+                let submit = document.getElementById("Submit");
+                let question = document.getElementById("question");
+                let input = document.getElementById("input");
+                if (index < 0) {
+                    submit.innerHTML = "Submit";
+                    
+                }
+                else {
+                    console.log(answers[index])
+                    if (input.value === answers[index]){
+                        console.log("correct!");
+                    }
+                    else{
+                        console.log("bad");
+                        console.log(input.value)
+                    }
+                }
+
+                index ++;
+                question.innerHTML = questions[index];
+            }
+        </script>
+
+
+        <style>
+            #input{
+                height: 25px;
+                width: 250px;
+                font-size: 14px;
+            }
+            #question{
+                font-size: large;
+            }
+        </style>
+
+        <h3 id="question">Ready to begin? Press the button below</h3> 
+        <input id="input" placeholder="Answer: Should be true or false"> <br>
+        <br>
+        <br>
+        <button onclick="onSubmit()" id="Submit">Start!</button>
+    </body>
+</html>
