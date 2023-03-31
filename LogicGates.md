@@ -54,3 +54,5 @@ A full-adder circuit consists of two half-adder circuits and an OR gate connecte
 1. How can logic gates be used to execute basic computer functions?
 
 2. What is the difference between boolean operations and logic gates?
+
+3. Complete [this quiz](https://www.khanacademy.org/computing/computers-and-internet/xcae6f4a7ff015e7d:computers/xcae6f4a7ff015e7d:logic-gates-and-circuits/e/logic-gates) and correct any mistakes
