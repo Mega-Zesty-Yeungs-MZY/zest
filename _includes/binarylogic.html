@@ -1,54 +1,99 @@
 <html>
-    <body>
+    <body >
         <script>
             let index = -1;
             let answer = 0; 
             let questions = [
                 "What is the following notation known as? X(Y')=?",
-                "!(true)&&(false) = ? what?",
+                "!(true)&&(false) = ? what in boolean values?",
                 "What is the following notation known as (X^Y)'",
-                "not ((((true) and not (false)) ^ (false) ^ true) && false) (remember PEMDASNAO!)",
+                "not ((((true and not (false)) ^ false) ^ true) && false) (remember PEMDASNAO!)",
                 "1 and not 0 and 0 is?",
-                "Write nand in XY notation (no spaces or parenthesis)",
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Write nand in XY notation (no spaces, remember parenthesis!)",
+                "nand(not(or(true, false)), true) = ?",
+                "what is the boolean value of 0?",
+                "What is 0'*1 = in boolean values?",
+                "What is (0^1)' in b values?"
                 ]
             let answers = [
-                "a",
-                "b",
-                "c",
-                "d",
-                "e",
-                "f",
-                "g",
-                "h",
-                "i",
-                "j"
+                "inhibition",
+                "false",
+                "xor",
+                "false",
+                "0",
+                "(xy)'",
+                "true",
+                "false",
+                "true",
+                "1"
             ]
+            let key = [];
+
+            function display(questions, answers, key){
+                console.log("Works!");
+                bigdiv = document.getElementById("bigdiv")
+                for (let i = 0; i < questions.length; i++){
+                    let div = document.createElement("div");
+                    let br = document.createElement("br");
+                    div.style.outline = "5px solid white"
+                    div.innerText = "Question: " + questions[i] + '\n' + "Answer: " + answers[i] + '\n' + "Your result: " + key[i]
+                    bigdiv.appendChild(div);
+                    bigdiv.appendChild(br);
+                }
+                
+                
+            }
+
+            function hideShow() {
+                var x = document.getElementById("correct");
+                if (questions[index] != undefined)
+                {if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }}
+
+            }
+
             function onSubmit(){
                 let submit = document.getElementById("Submit");
                 let question = document.getElementById("question");
-                let input = document.getElementById("input");
+                let input = document.getElementById("minput");
                 if (index < 0) {
                     submit.innerHTML = "Submit";
-                    
+                    hideShow();
                 }
                 else {
                     console.log(answers[index])
-                    if (input.value === answers[index]){
+                    val = input.value.toLowerCase()
+                    if (val === answers[index]){
                         console.log("correct!");
+                        answer ++;
+                        console.log(val + ', correct');
+                        key.push(val + ', correct');
+                        console.log(key)
+                        
                     }
                     else{
                         console.log("bad");
                         console.log(input.value)
+                        key.push(input.value + ", incorrect");
+                        console.log("passed with " + val)
                     }
+                     
                 }
 
                 index ++;
-                question.innerHTML = questions[index];
+                if (questions[index] != undefined){
+                        question.innerHTML = questions[index];
+                    }
+                else {
+                        document.getElementById("correct").innerHTML = "You got " + String(answer) + " out of " + questions.length + " correct!"
+                        hideShow();
+                        display(questions, answers, key);
+                }
+                input.value = "";
+                
             }
         </script>
 
@@ -61,13 +106,16 @@
             }
             #question{
                 font-size: large;
+                color: white;
             }
         </style>
-
+<div id="bigdiv" style="outline: 5px dashed white">
+    <div id="divvy" style="background-color: black; outline: 5px solid white; padding: 5px;">
         <h3 id="question">Ready to begin? Press the button below</h3> 
-        <input id="input" placeholder="Answer: Should be true or false"> <br>
-        <br>
-        <br>
+        <input id="minput" placeholder="Answer: Should be true or false"> <br>
         <button onclick="onSubmit()" id="Submit">Start!</button>
+        <p id="correct" style="color:red;">Let's Review!</p>
+    </div>
+</div>
     </body>
 </html>
