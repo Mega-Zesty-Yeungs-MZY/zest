@@ -206,9 +206,11 @@ Based on what you find online, fill out the tables below for subtracting, multip
 
 **BONUS**: Create buttons similar to the ones above that allow you to subtract, multiply, and/or divide binary numbers and returns the desired result in both binary and decimal. 
 
-
-
-
+<style>
+  * {
+    margin: 200px;
+  }
+</style>
 
 
 
