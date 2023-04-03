@@ -204,13 +204,19 @@ Based on what you find online, fill out the tables below for subtracting, multip
 |     ?    |    ?    |        
 
 
-**BONUS**: Create buttons similar to the ones above that allow you to subtract, multiply, and/or divide binary numbers and returns the desired result in both binary and decimal. 
 
-<style>
-  * {
-    margin: 200px;
-  }
-</style>
+Choose ONE:
+
+- Create buttons similar to the ones above that allow you to **subtract** binary numbers and returns the desired result in both binary and decimal
+- Create buttons similar to the ones above that allow you to **multiply**  binary numbers and returns the desired result in both binary and decimal
+- Create buttons similar to the ones above that allow you to **divide**  binary numbers and returns the desired result in both binary and decimal
+
+If you create buttons for all three of these (or somehow find a way to combine them!), you can get extra points (value TBD)
+
+
+**BONUS**: Create a binary to decimal/decimal to binary converter in any language (not given in the lesson) a different way. You can use built-in binary functions, but you will not get the full (point value here) points.
+
+
 
 
 
