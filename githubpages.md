@@ -10,11 +10,7 @@
     <div class="wrapper">
         <div class="introWrap">
             <h1>Learn GitHub pages!</h1>
-            <!-- <p>GitHub pages is a great way to host your website for free!</p>
-            <br>
-            <p>Click the link below to learn all about how to host your website using github pages!</p>
-            <br>
-            <a href="https://pages.github.com/">Learn GitHub pages!</a> -->
+            <!-- <a href="https://pages.github.com/">Learn GitHub pages!</a> -->
             <h2>What is Github pages?</h2>
             <h2>Setting Up With Conda Script</h2>
             <h3>What is Conda Script?</h3>
