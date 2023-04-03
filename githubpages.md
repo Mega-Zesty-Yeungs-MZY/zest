@@ -15,6 +15,13 @@
             <p>Click the link below to learn all about how to host your website using github pages!</p>
             <br>
             <a href="https://pages.github.com/">Learn GitHub pages!</a>
+            <h2>Setting Up With Conda Script</h2>
+            <br>
+            <h2>Setting Up With FastPages</h2>
+            <br>
+            <h2>Building requirements</h2>
+            <br>
+            <h2>Pull requests</h2>
         </div>
     </div>
 </body>
