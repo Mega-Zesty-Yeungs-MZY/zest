@@ -16,12 +16,16 @@
             <br>
             <a href="https://pages.github.com/">Learn GitHub pages!</a>
             <h2>Setting Up With Conda Script</h2>
+            <img src="https://elpythonista.com/wp-content/uploads/2020/10/Anaconda-entrada-hd-768x432.jpg" alt="conda script" width="600" height="345">
             <br>
             <h2>Setting Up With FastPages</h2>
+            <img src="https://olearydj.github.io/antisimplistic/images/diagram.png" alt="fastpages" width="600" height="345">
             <br>
             <h2>Building requirements</h2>
+            <img src="https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2018Q3/software-requirements-documentation/software-requirements-document-header@2x.png" alt="Building requirements" width="650" height="345">
             <br>
             <h2>Pull requests</h2>
+            <img src="https://seekicon.com/free-icon-download/git-pull-request_1.svg" alt="Pull request icon" width="460" height="345">
         </div>
     </div>
 </body>
