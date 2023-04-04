@@ -171,7 +171,6 @@ Based on what you find online, fill out the tables below for subtracting, multip
 |     ?    |    ?    |        
 
 
-
 Choose ONE:
 
 - Create buttons similar to the ones above that allow you to **subtract** binary numbers and returns the desired result in both binary and decimal
@@ -185,6 +184,33 @@ If you create buttons for all three of these (or somehow find a way to combine t
 
 
 
+- Converting binary between other forms of machine abstraction, i.e hexadecimal, decimal, etc. \n",
+    "- Machine language and how machine language uses binary\n",
+    "- Context-based storage/abstraction\n",
+    "  - Abstraction of data using binary\n",
+    "- analog and digital representation\n"
+
+
+## How Machine Language Uses Binary
+
+- Machine language refers to the language understood by the computer
+
+- Machine language made up of instructions that are all binary numbers
+- Machine language usually displayed in hexadecimal form so that it is easier to read
+- Programming languages provide connection between human thought processes and the binary works of machine language that control computer actions
+
+## Context-Based Storage/Abstraction
+
+
+
+## Overflow/Rounding Errors
+
+
+
+## Abstraction of Data Using Binary
+
+
+## Analog and Digital Representation
 
 
 
