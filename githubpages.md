@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,11 +10,7 @@
     <div class="wrapper">
         <div class="introWrap">
             <h1>Learn GitHub pages!</h1>
-            <!-- <p>GitHub pages is a great way to host your website for free!</p>
-            <br>
-            <p>Click the link below to learn all about how to host your website using github pages!</p>
-            <br>
-            <a href="https://pages.github.com/">Learn GitHub pages!</a> -->
+            <!-- <a href="https://pages.github.com/">Learn GitHub pages!</a> -->
             <h2>What is Github pages?</h2>
             <h2>Setting Up With Conda Script</h2>
             <h3>What is Conda Script?</h3>
@@ -31,6 +27,7 @@
             <h2>Pull requests</h2>
             <h3>What are Pull requests?</h3>
             <img src="https://seekicon.com/free-icon-download/git-pull-request_1.svg" alt="Pull request icon" width="460" height="345">
+            
         </div>
     </div>
 </body>
