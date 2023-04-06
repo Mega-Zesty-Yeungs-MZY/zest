@@ -146,19 +146,27 @@ Overflow errors result from when we add two binary numbers together, with each b
 
 The diagram below is a perfect example of overflow errors and how they work:
 
-![]({{ site.baseurl }}/images/overflow.png)
+![]({{site.baseurl}}/images/overflow.png)
 
 ### Roundoff Errors
 
 Roundoff or rounding errors in binary results from the inability of the computer to precisely represent some numbers.  Below is another representation of rounding errors and how they work: 
 
-![]({{ site.baseurl }}/images/roundoff.png)
+![]({{site.baseurl}}/images/roundoff.png)
+
+
+## Context-Based Storage/Abstraction
 
 
 
 
+## Abstraction of Data Using Binary
 
-### Rounding Errors
+
+## Analog and Digital Representation
+
+
+
 
 
 
@@ -221,21 +229,6 @@ If you create buttons for all three of these (or somehow find a way to combine t
 - Machine language made up of instructions that are all binary numbers
 - Machine language usually displayed in hexadecimal form so that it is easier to read
 - Programming languages provide connection between human thought processes and the binary works of machine language that control computer actions
-
-## Context-Based Storage/Abstraction
-
-
-
-
-
-
-## Abstraction of Data Using Binary
-
-
-## Analog and Digital Representation
-
-
-
 
 
 
