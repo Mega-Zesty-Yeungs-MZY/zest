@@ -8,8 +8,7 @@
 <body>
     <div class="wrapper">
         <div class="introWrap">
-            <h1><center>GitHub pages!</center></h1>
-            <!-- <a href="https://pages.github.com/">Learn GitHub pages!</a> -->
+            <h2><center>GitHub pages!</center></h2>
             <h2>What is Github pages?</h2>
             <h2>Setting Up With Conda Script</h2>
             <h3>What is Conda Script?</h3>
@@ -19,16 +18,16 @@
             <h3>What is fastpages?</h3>
             <img src="https://olearydj.github.io/antisimplistic/images/diagram.png" alt="fastpages" width="600" height="345">
             <br>
-            <h2>Building requirements</h2>
+            <!-- <h2>Building requirements</h2>
             <h3>What are software building requirements?</h3>
             <img src="https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2018Q3/software-requirements-documentation/software-requirements-document-header@2x.png" alt="Building requirements" width="650" height="345">
             <br>
             <h2>Pull requests</h2>
             <h3>What are pull requests?</h3>
-            <p style="text-align: left; font-size: 10px; color: black;"> Pull requests are a feature that is unique to Github. A pull request is used to allow other developers to take a look at changes in a branch located in a repository. The goal of Pull requests are to allow developers a better way to look at code changes so that they can better review, discuss, and change parts of their code before the actual code is put in the main branch. This also gives it the name merge request since that is what is being done.</p>
+            <p style="text-align: left; font-size: 20px; color: black;"> Pull requests are a feature that is unique to Github. A pull request is used to allow other developers to take a look at changes in a branch located in a repository. The goal of Pull requests are to allow developers a better way to look at code changes so that they can better review, discuss, and change parts of their code before the actual code is put in the main branch. This also gives it the name merge request since that is what is being done.</p>
             <h3>How to use pull requests in Github!</h3>
-            <p style="text-align: left; font-size: 10px; color: black;"> add info.</p>
-            <img src="https://seekicon.com/free-icon-download/git-pull-request_1.svg" alt="Pull request icon" width="460" height="345">
+            <p style="text-align: left; font-size: 20px; color: black;"> add info.</p>
+            <img src="https://seekicon.com/free-icon-download/git-pull-request_1.svg" alt="Pull request icon" width="460" height="345"> -->
         </div>
     </div>
 </body>
