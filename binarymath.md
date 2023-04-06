@@ -138,6 +138,29 @@ There are actually rules that need to be followed when it comes to adding up bin
 | **0+1** | 1 | 
 | **0+0** | 0 |
 
+## Overflow/Rounding Errors
+
+### Overflow Errors
+
+Overflow errors result from when we add two binary numbers together, with each binary holding a certain number of bits, but the answer ends up having more bits than the binary can actually stores, thus causing an overflow error. 
+
+The diagram below is a perfect example of overflow errors and how they work:
+
+![]({{ site.baseurl }}/images/overflow.png)
+
+### Roundoff Errors
+
+Roundoff or rounding errors in binary results from the inability of the computer to precisely represent some numbers.  Below is another representation of rounding errors and how they work: 
+
+![]({{ site.baseurl }}/images/roundoff.png)
+
+
+
+
+
+### Rounding Errors
+
+
 
 ## Hacks
 
@@ -203,7 +226,6 @@ If you create buttons for all three of these (or somehow find a way to combine t
 
 
 
-## Overflow/Rounding Errors
 
 
 
