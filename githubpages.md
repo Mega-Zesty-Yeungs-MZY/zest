@@ -17,7 +17,7 @@
             </p>
             <h3><center>How to set up Github pages<center></h3>
             <p>
-            Github pages were designed to be simple so that it could be used by all so this is a quick and easy setup. You start by creating a new repository under your github account. You will then go into the <mark>setting's Pages/Build and Deployment/Source</mark> and change it to <mark>Deploy from a branch</mark>. You will them change <mark>Pages/Build and Deployment/Branch</mark> so that it selected to a <mark>publishing source</mark>. For a better step by step on how to do this, visit <a href="https://docs.github.com/en/pages/quickstart">this Github Doc</a>.</p>
+            <center>Github pages were designed to be simple so that it could be used by all so this is a quick and easy setup. You start by creating a new repository under your github account. You will then go into the <mark>setting's Pages/Build and Deployment/Source</mark> and change it to <mark>Deploy from a branch</mark>. You will them change <mark>Pages/Build and Deployment/Branch</mark> so that it selected to a <mark>publishing source</mark>. For a better step by step on how to do this, visit <a href="https://docs.github.com/en/pages/quickstart">this Github Doc</a>.</center></p>
             <center><img src="/images/gitpagesetupex.png" alt="Github_Pages_setup_ex"></center>
             <h2>Setting Up With Conda Script</h2>
             <h3>What is Conda Script?</h3>
