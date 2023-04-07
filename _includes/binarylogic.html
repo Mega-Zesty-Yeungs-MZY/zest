@@ -13,7 +13,9 @@
                 "nand(not(or(true, false)), true) = ?",
                 "what is the boolean value of 0?",
                 "What is 0'*1 = in boolean values?",
-                "What is (0^1)' in b values?"
+                "What is (0^1)' in b values?",
+                "What is 23^57?",
+                "What is 13&7"
                 ]
             let answers = [
                 "inhibition",
@@ -25,9 +27,11 @@
                 "true",
                 "false",
                 "true",
-                "1"
+                "1",
+                "46",
+                "5"
             ]
-            let key = [];
+            let key = []
 
             function display(questions, answers, key){
                 console.log("Works!");
@@ -76,8 +80,12 @@
                     }
                     else{
                         console.log("bad");
+                        val = input.value
+                        if(val === ""){
+                            val = "nothing submitted"
+                        }
                         console.log(input.value)
-                        key.push(input.value + ", incorrect");
+                        key.push(val + ", incorrect");
                         console.log("passed with " + val)
                     }
                      
