@@ -9,13 +9,15 @@
     <div class="wrapper">
         <div class="introWrap">
             <h2><center>GitHub pages!</center></h2>
-            <h3>What is Github pages?</h3>
+            <h3><center>What is Github pages?</center></h3>
             <p>
             <center>Github pages is a hosting service website that hosts files created from the given github repository. Github pages can be used by people like you and me to share and present their work for others to see. The websites created consists of files in the programming languages HTML, CSS, and JavaScript. Notice anything about those types of files? Those are the type of files that are used to build our code's frontend. This makes the purpose of Github pages to display and hold a users projects and for them to have access to their own website.</center></p>
             <center><img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/collections/github-pages-examples/github-pages-examples.png" alt="githubpageslogo" width="230" height="230"></center>
-            <h3>How to set up Github pages</h3>
             <p>
-            <center>Github pages were designed to be simple so that it could be used by all so this is a quick and easy setup. You start by creating a new repository under your github account. You will then go into the <mark>setting's Pages/Build and Deployment/Source</mark> and change it to <mark>Deploy from a branch</mark>. You will them change <mark>Pages/Build and Deployment/Branch</mark> so that it selected to a <mark>publishing source</mark>. For a better step by step on how to do this, visit <a href="https://docs.github.com/en/pages/quickstart">this Github Doc</a>.</center></p>
+            </p>
+            <h3><center>How to set up Github pages<center></h3>
+            <p>
+            Github pages were designed to be simple so that it could be used by all so this is a quick and easy setup. You start by creating a new repository under your github account. You will then go into the <mark>setting's Pages/Build and Deployment/Source</mark> and change it to <mark>Deploy from a branch</mark>. You will them change <mark>Pages/Build and Deployment/Branch</mark> so that it selected to a <mark>publishing source</mark>. For a better step by step on how to do this, visit <a href="https://docs.github.com/en/pages/quickstart">this Github Doc</a>.</p>
             <center><img src="/images/gitpagesetupex.png" alt="Github_Pages_setup_ex"></center>
             <h2>Setting Up With Conda Script</h2>
             <h3>What is Conda Script?</h3>
