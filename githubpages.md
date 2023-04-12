@@ -15,10 +15,12 @@
             <center><img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/collections/github-pages-examples/github-pages-examples.png" alt="githubpageslogo" width="230" height="230"></center>
             <p>
             </p>
-            <h3><center>How to set up Github pages<center></h3>
+            <h3><center>How to set up Github pages<center>
             <p>
-            <center>Github pages were designed to be simple so that it could be used by all so this is a quick and easy setup. You start by creating a new repository under your github account. You will then go into the <mark>setting's Pages/Build and Deployment/Source</mark> and change it to <mark>Deploy from a branch</mark>. You will them change <mark>Pages/Build and Deployment/Branch</mark> so that it selected to a <mark>publishing source</mark>. For a better step by step on how to do this, visit <a href="https://docs.github.com/en/pages/quickstart">this Github Doc</a>.</center></p>
+            <center>Github pages were designed to be simple so that it could be used by all so this is a quick and easy setup. You start by creating a new repository under your github account. You will then go into the setting's Pages/Build and Deployment/Source</mark> and change it to <mark>Deploy from a branch. You will them change Pages/Build and Deployment/Branch so that it selected to a publishing source. For a better step by step on how to do this, visit <a href="https://docs.github.com/en/pages/quickstart">this Github Doc</a>.</center></p>
             <center><img src="/images/gitpagesetupex.png" alt="Github_Pages_setup_ex"></center>
+            <p>
+            </p>
             <h2>Setting Up With Conda Script</h2>
             <h3>What is Conda Script?</h3>
             <img src="https://elpythonista.com/wp-content/uploads/2020/10/Anaconda-entrada-hd-768x432.jpg" alt="conda script" width="600" height="345">
