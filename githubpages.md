@@ -17,7 +17,7 @@
             </p>
             <h3><center>How to set up Github pages<center>
             <p>
-            <center>Github pages were designed to be simple so that it could be used by all so this is a quick and easy setup. You start by creating a new repository under your github account. You will then go into the setting's Pages/Build and Deployment/Source</mark> and change it to <mark>Deploy from a branch. You will them change Pages/Build and Deployment/Branch so that it selected to a publishing source. For a better step by step on how to do this, visit <a href="https://docs.github.com/en/pages/quickstart">this Github Doc</a>.</center></p>
+            <center>Github pages were designed to be simple so that it could be used by all so this is a quick and easy setup. You start by creating a new repository under your github account. You will then go into the setting's Pages/Build and Deployment/Source and change it to Deploy from a branch. You will them change Pages/Build and Deployment/Branch so that it selected to a publishing source. For a better step by step on how to do this, visit <a href="https://docs.github.com/en/pages/quickstart">this Github Doc</a>.</center></p>
             <center><img src="/images/gitpagesetupex.png" alt="Github_Pages_setup_ex"></center>
             <p>
             </p>
