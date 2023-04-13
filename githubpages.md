@@ -21,14 +21,14 @@
             <center><img src="images/gitpagesetupex.png" alt="Github_Pages_setup_ex"></center>
             <p>
             </p>
+            <h2><center>Fastpages!</center></h2>
+            <h3>What is fastpages?</h3>
+            <p>
+            <center>Fastpages is . . .</center></p>
+            <center><img src="https://olearydj.github.io/antisimplistic/images/diagram.png" alt="fastpages" width="600" height="345"></center>
             <h2>Setting Up With Conda Script</h2>
             <h3>What is Conda Script?</h3>
             <img src="https://elpythonista.com/wp-content/uploads/2020/10/Anaconda-entrada-hd-768x432.jpg" alt="conda script" width="600" height="345">
-            <br>
-            <h2>Setting Up With FastPages</h2>
-            <h3>What is fastpages?</h3>
-            <img src="https://olearydj.github.io/antisimplistic/images/diagram.png" alt="fastpages" width="600" height="345">
-            <br>
             <!-- <h2>Building requirements</h2>
             <h3>What are software building requirements?</h3>
             <img src="https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2018Q3/software-requirements-documentation/software-requirements-document-header@2x.png" alt="Building requirements" width="650" height="345">
