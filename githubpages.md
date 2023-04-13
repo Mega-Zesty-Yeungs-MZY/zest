@@ -24,7 +24,7 @@
             <h2><center>Fastpages!</center></h2>
             <h3>What is fastpages?</h3>
             <p>
-            <center>Fastpages is . . .</center></p>
+            <center>Fastpages is a blogging site that is designed to be easy to use in order to create blog posts. A fastpage is reliant on Github pages to host it as well as the Github actions to assist in the creation of the blog and its future changes. Fastpages is an easy to use blogging site but why do we use it for our blog posts? We use Fastpages because it contains Jupyter Notebooks. Fastpages with the help of Github Actions can convert a Jupyter Notebook under the files <code>/_notebook</code>, <code>/_posts</code>, and even <code>/_word</code> into a blog post. This is why fastpages are easy to use for blogging and why the addition of Jupyter Notebooks is important.</center></p>
             <center><img src="https://olearydj.github.io/antisimplistic/images/diagram.png" alt="fastpages" width="600" height="345"></center>
             <h2>Setting Up With Conda Script</h2>
             <h3>What is Conda Script?</h3>
