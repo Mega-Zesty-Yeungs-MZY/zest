@@ -33,7 +33,7 @@
 <br>
 <div id="style1" style="display: none; flex; justify-content: center;">
   <img src="{{site.baseurl}}/images/api2.png" alt="Code 1 Output" id="Output1">
-  <p style="text-align: center; font-size: 20px;">This code uses an API from RapidAPI which displays various soccer games and includes statistics for whatever game you choose to search for.</p>
+  <p style="text-align: center; font-size: 20px;">This code uses an API from RapidAPI which displays various soccer games and includes statistics for whatever game you choose to search for, intended to help someone predict the outcome of a game.</p>
 </div>
 
 <script>
