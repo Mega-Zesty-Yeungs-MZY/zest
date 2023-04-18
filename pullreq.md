@@ -4,32 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Intro to frontend</title>
+    <title>Pull requests</title>
 </head>
 <body>
-    <div class="front-wrap">
-        <div class="front-header">
-            <h1>Intro to frontend</h1>
+    <div class="pull-wrap">
+        <div class="pull-header">
+            <h1>Intro to pull requests</h1>
         </div>
-        <div class="front-content">
+        <div class="pull-content">
             <!--  -->
             <div class="dropdown-questions">
                 <div onclick="opencq1()" id="cq1" class="cq1">
-                    <h2 id="cq-h1">What languages for frontend dev?</h2>
-                    <p id="cq-p1" class="cq-p1">Typically, frontend developers use HTML, SCSS, and JS to create a fully functional and interactable website. Some resources to learn how to use these can be found <a href="https://www.w3schools.com/html/">here.</a></p>
+                    <h2 id="cq-h1">What are pull requests?</h2>
+                    <p id="cq-p1" class="cq-p1">Pull requests are a developer requesting the project to pull changes that you made to the repository fork.</p>
                 </div>
                 <div onclick="opencq2()" id="cq2" class="cq2">
-                    <h2 id="cq-h2">What is responsive design?</h2>
-                    <p id="cq-p2" class="cq-p2">Responsive design is the practice of designing websites that adapt to different screen sizes and devices. This is important because users are increasingly accessing the web on a variety of devices. Responsive design ensures that a website is accessible and usable on any device. More about this can be found 
-                    <a href="https://www.w3schools.com/css/css_rwd_intro.asp">here</a>.</p>
+                    <h2 id="cq-h2">What is the difference between 'pull' and 'push' requests?</h2>
+                    <p id="cq-p2" class="cq-p2">Pull requests are a 'request' for someone to pull your local changes. Push 'request' is a command. It tells github to upload your changes.</p>
                 </div>
                 <div onclick="opencq3()" id="cq3" class="cq3">
-                    <h2 id="cq-h3">Difference between HTML, CSS, and JS?</h2>
-                    <p id="cq-p3" class="cq-p3">HTML is a markup language used to structure content on the web, while CSS is used to style and layout that content. JavaScript is a scripting language used to create interactive and dynamic web content.</p>
-                </div>
-                <div onclick="opencq4()" id="cq4" class="cq4">
-                    <h2 id="cq-h4">What are some popular frontend frameworks?</h2>
-                    <p id="cq-p4" class="cq-p4">Some popular frontend frameworks include <a href="https://reactjs.org/">React</a>, <a href="https://angular.io/">Angular</a>, and <a href="https://vuejs.org/">Vue</a>. These frameworks provide tools and libraries for building complex and interactive user interfaces.</p>
+                    <h2 id="cq-h3">Why do we use pull requests?</h2>
+                    <p id="cq-p3" class="cq-p3">Pull requests help ensure that your code is reviewed before being pushed to the main codebase. This can help avoid bugs and other issues.</p>
                 </div>
             </div>
         </div>
@@ -71,10 +66,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: content-fit;
+        width: calc(content-fit/2);
         margin: 25px 25px 25px 25px;
         padding: 25px;
-        height: 400px;
+        height: 100px;
         background-color: #f1f1f1;
         color: black;
         flex-direction: column;
@@ -87,6 +82,7 @@
     
     h2 {
         display: flex;
+        font-size: 20px;
     }
 
     p {
