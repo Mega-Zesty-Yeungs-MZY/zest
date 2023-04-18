@@ -26,19 +26,17 @@
             <p>
             <center>Fastpages is a blogging site that is designed to be easy to use in order to create blog posts. A fastpage is reliant on Github pages to host it as well as the Github actions to assist in the creation of the blog and its future changes. Fastpages is an easy to use blogging site but why do we use it for our blog posts? We use Fastpages because it contains Jupyter Notebooks. Fastpages with the help of Github Actions can convert a Jupyter Notebook under the files <code>/_notebook</code>, <code>/_posts</code>, and even <code>/_word</code> into a blog post. This automatically happens through the use of <a href="http://nbdev.fast.ai/index.html">nbdev</a>. This is why fastpages are easy to use for blogging and why the addition of Jupyter Notebooks is important.</center></p>
             <center><img src="https://olearydj.github.io/antisimplistic/images/diagram.png" alt="fastpages" width="600" height="345"></center>
+            <h3><center>More about Jupyter Notebooks?</center></h3>
+            <p>
+            <dd>Jupyter Notebooks has the following features that can be useful when writing a blog.</dd></p>
+            <ul>
+                <li>Interactive features for users</li>
+                <li>Hide and/or show code segments and their input and output</li>
+                <li>Collapsable code cells</li>
+            </ul>
             <h2>Setting Up With Conda Script</h2>
             <h3>What is Conda Script?</h3>
             <img src="https://elpythonista.com/wp-content/uploads/2020/10/Anaconda-entrada-hd-768x432.jpg" alt="conda script" width="600" height="345">
-            <!-- <h2>Building requirements</h2>
-            <h3>What are software building requirements?</h3>
-            <img src="https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2018Q3/software-requirements-documentation/software-requirements-document-header@2x.png" alt="Building requirements" width="650" height="345">
-            <br>
-            <h2>Pull requests</h2>
-            <h3>What are pull requests?</h3>
-            <p style="text-align: left; font-size: 20px; color: black;"> Pull requests are a feature that is unique to Github. A pull request is used to allow other developers to take a look at changes in a branch located in a repository. The goal of Pull requests are to allow developers a better way to look at code changes so that they can better review, discuss, and change parts of their code before the actual code is put in the main branch. This also gives it the name merge request since that is what is being done.</p>
-            <h3>How to use pull requests in Github!</h3>
-            <p style="text-align: left; font-size: 20px; color: black;"> add info.</p>
-            <img src="https://seekicon.com/free-icon-download/git-pull-request_1.svg" alt="Pull request icon" width="460" height="345"> -->
         </div>
     </div>
 </body>

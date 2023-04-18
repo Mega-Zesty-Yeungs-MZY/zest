@@ -5,6 +5,8 @@
 - 3rd Party APIs
 - Analysis and Cleaning using Python, Flask, and Pandas
 
+# 3rd Party APIs
+
 > What are 3rd Party APIs?
 - 3rd Party APIs are application programming interfaces that are created by third-party developers or companies
 - 3rd Party API's allow developers to save time and resources by not having to make the API's by themselves
@@ -19,7 +21,7 @@
 - Facebook API
 - etc
 
-# Example 1
+# Example 1 (Python)
 
 <div style="text-align: center;">
   <img src="{{site.baseurl}}/images/api1.png" alt="Code 1">
@@ -31,7 +33,7 @@
 <br>
 <div id="style1" style="display: none; flex; justify-content: center;">
   <img src="{{site.baseurl}}/images/api2.png" alt="Code 1 Output" id="Output1">
-  <p style="text-align: center; font-size: 20px;">This code uses an API from RapidAPI which displays various soccer games and includes statistics for whatever game you choose to search for.</p>
+  <p style="text-align: center; font-size: 20px;">This code uses an API from RapidAPI which displays various soccer games and includes statistics for whatever game you choose to search for, intended to help someone predict the outcome of a game.</p>
 </div>
 
 <script>
@@ -44,6 +46,72 @@
   });
 </script>
 
-# Hacks:
+# Example 2 (Javascript)
 
-wget
+<a href="https://covid19api.com/">Covid 19 3rd Party API</a>
+
+```javascript
+fetch('https://api.covid19api.com/summary')
+    .then(response => response.json())
+    .then(data => {
+      const tbody = document.querySelector('#myTable tbody');
+      data.Countries.forEach(country => {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+          <td>${country.Country}</td>
+          <td>${country.TotalConfirmed}</td>
+          <td>${country.TotalDeaths}</td>
+        `;
+        tbody.appendChild(row);
+      });
+    })
+    .catch(error => console.error(error));
+```
+
+<style>
+  th {
+    font-weight: bold;
+  }
+</style>
+
+<table id="myTable">
+  <thead>
+    <tr>
+      <th>Country</th>
+      <th>Cases</th>
+      <th>Deaths</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+<script>
+  fetch('https://api.covid19api.com/summary')
+    .then(response => response.json())
+    .then(data => {
+      const tbody = document.querySelector('#myTable tbody');
+      data.Countries.forEach(country => {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+          <td>${country.Country}</td>
+          <td>${country.TotalConfirmed}</td>
+          <td>${country.TotalDeaths}</td>
+        `;
+        tbody.appendChild(row);
+      });
+    })
+    .catch(error => console.error(error));
+</script>
+
+# Analysis and Cleaning using Python, Flask, and Pandas
+
+> What is Analysis and Cleaning?
+- Data cleaning is the process of fixing or removing incorrect, corrupted, incorrectly formatted, duplicate, or incomplete data within a dataset
+- Allows for accurate, reputable, organized data that generates a reliable representation of whatever it is that will be put through data analysis
+
+> Pandas
+- 
+
+> Flask
+- 
+
+# Hacks:
