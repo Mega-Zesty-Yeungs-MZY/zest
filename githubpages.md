@@ -29,11 +29,11 @@
             <h3><center>More about Jupyter Notebooks?</center></h3>
             <p>
             <dd>Jupyter Notebooks has the following features that can be useful when writing a blog.</dd></p>
-            <ul>
+            <dd><ul>
                 <li>Interactive features for users</li>
                 <li>Hide and/or show code segments and their input and output</li>
                 <li>Collapsable code cells</li>
-            </ul>
+            </ul></dd>
             <h2>Setting Up With Conda Script</h2>
             <h3>What is Conda Script?</h3>
             <img src="https://elpythonista.com/wp-content/uploads/2020/10/Anaconda-entrada-hd-768x432.jpg" alt="conda script" width="600" height="345">
