@@ -1,12 +1,62 @@
-<table>
-    <tr>
-        <td><a href="{{ site.baseurl }}">Home</a></td>
-        <td><a href="{{ site.baseurl }}/Frontend">Frontend Info</a></td>
-        <td><a href="{{ site.baseurl }}/binarymath">Binary Math</a></td>
-        <td><a href="{{ site.baseurl }}/binarylogic">Binary Logic</a></td>
-        <td><a href="{{ site.baseurl }}/LogicGates">Logic Gates</a></td>
-        <td><a href="{{ site.baseurl }}/family-night">Family-Night</a></td>
-        <td><a href="{{ site.baseurl }}/fetchingandfiltering">Fetching and Filtering</a></td>
-        <td><a href="{{ site.baseurl }}/githubpages">Github pages</a></td>
-    </tr>
-</table>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    
+    <div class="nav">
+        <a href="{{ site.baseurl }}">Home</a>
+        <a href="{{ site.baseurl }}/pullreq">Pull Requests</a>
+        <a href="{{ site.baseurl }}/binarymath">Binary Math</a>
+        <a href="{{ site.baseurl }}/binarylogic">Binary Logic</a>
+        <a href="{{ site.baseurl }}/LogicGates">Logic Gates</a>
+        <a href="{{ site.baseurl }}/fetchingandfiltering">Fetching 
+        <a href="{{ site.baseurl }}/githubpages">Github pages</a>
+        <a href="{{ site.baseurl }}/3rdpartyapi">APIs</a>
+    </div>
+    
+</body>
+
+<style>
+
+    * {
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 99;
+        /* padding: 16px 32px; */
+        border-bottom: 5px rgb(73, 72, 72);
+        width: 100%;
+        background-color: rgb(22, 22, 41);
+        height: 8%;
+        justify-content: space-between;
+    }
+
+    .nav a {
+        color: aliceblue;
+        margin: 40px;
+        font-size: large;
+    }
+
+    .nav a:hover {
+        background-color: black;
+        
+    }
+
+    body {
+        padding-top: 8vh;
+    }
+
+</style>

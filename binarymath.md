@@ -118,6 +118,23 @@ Therefore, 11001010 in decimal is 202.
 
 ```
 
+### Conversion Exercises 
+
+Convert the following numbers to decimal notation:
+The binary number 111.
+The binary number 1011.
+The binary number 10111011.
+The hex number 61.
+The hex number DA.
+The hex number FEE.
+
+Convert the following numbers as indicated.
+Convert the following 12 to binary.
+Convert the following 44 to binary.
+Convert the following 254 to hex.
+Convert the following 16 to hex.
+Challenge: Convert 125 to octal notation.
+
 ## Simulations/Interactions With Binary Math
 
 While converting decimal numbers to binary numbers and vice versa is an important use of binary math, binary numbers also allow us to create interesting simulations and interactions for the user to play around with. For example, out on the Internet, there are several binary calculators available to everyone. They allow you to add, subtract, multiply, and divide binary numbers!
@@ -126,7 +143,6 @@ While converting decimal numbers to binary numbers and vice versa is an importan
 Play around with the buttons below, which allow you to input two binary numbers and provides you with the output of the sum. Write down any notes/observations about this and see if you can get an idea of how we can add binary numbers together (required). Try to make your best guess before moving on!
 
 {% include binarymath.html %}
-
 
 There are actually rules that need to be followed when it comes to adding up binary numbers. Below is a table displaying these rules. 
 
@@ -138,6 +154,53 @@ There are actually rules that need to be followed when it comes to adding up bin
 | **1+0** | 1 | 
 | **0+1** | 1 | 
 | **0+0** | 0 |
+
+
+## How Machine Language Uses Binary
+
+- Machine language refers to the language understood by the computer
+
+- Machine language made up of instructions that are all binary numbers
+- Machine language usually displayed in hexadecimal form so that it is easier to read
+- Programming languages provide connection between human thought processes and the binary works of machine language that control computer actions
+
+## Overflow/Rounding Errors
+
+### Overflow Errors
+
+Overflow errors result from when we add two binary numbers together, with each binary holding a certain number of bits, but the answer ends up having more bits than the binary can actually stores, thus causing an overflow error. 
+
+The diagram below is a perfect example of overflow errors and how they work:
+
+![]({{site.baseurl}}/images/overflow.png)
+
+### Roundoff Errors
+
+Roundoff or rounding errors in binary results from the inability of the computer to precisely represent some numbers.  Below is another representation of rounding errors and how they work: 
+
+![]({{site.baseurl}}/images/roundoff.png)
+
+
+## Abstraction of Data Using Binary
+
+You are probably familiar with data abstraction by now, as that is one of the main things that we have discussed and learned about this year. It also happens to be one of the rows on College Board's Rubric for the Create Performance Task. If you happen to forget what data abstraction was, below is a description of the data abstraction row on the rubric: 
+
+![]({{site.baseurl}}/images/dataabstraction.png)
+
+Relating binary and data abstraction together, binary sequences (consisting of values that can either be 0s or 1s, of course) can be used to represent more complex sets of data that we encounter in our day to day lives. In fact, everything in our computer is represented as a binary sequence. 
+
+
+## Analog and Digital Representation
+
+Computers only have the ability to store digital data, with the most common example of digital data being binary. This is because while analog data is infinitely detail, computers can only hold finite sets of data in a binary representation,. 
+
+![]({{site.baseurl}}/images/analogdigital.jpg)
+
+
+
+## Context-Based Storage/Abstraction
+
+
 
 
 ## Hacks
@@ -172,13 +235,24 @@ Based on what you find online, fill out the tables below for subtracting, multip
 |     ?    |    ?    |        
 
 
-**BONUS**: Create buttons similar to the ones above that allow you to subtract, multiply, and/or divide binary numbers and returns the desired result in both binary and decimal. 
+Choose ONE:
+
+- Create buttons similar to the ones above that allow you to **subtract** binary numbers and returns the desired result in both binary and decimal
+- Create buttons similar to the ones above that allow you to **multiply**  binary numbers and returns the desired result in both binary and decimal
+- Create buttons similar to the ones above that allow you to **divide**  binary numbers and returns the desired result in both binary and decimal
+
+If you create buttons for all three of these (or somehow find a way to combine them!), you can get extra points (value TBD)
+
+
+**BONUS**: Create a binary to decimal/decimal to binary converter in any language (not given in the lesson) a different way. You can use built-in binary functions, but you will not get the full (point value here) points.
 
 
 
-
-
-
+- Converting binary between other forms of machine abstraction, i.e hexadecimal, decimal, etc. \n",
+    "- Machine language and how machine language uses binary\n",
+    "- Context-based storage/abstraction\n",
+    "  - Abstraction of data using binary\n",
+    "- analog and digital representation\n"
 
 
 

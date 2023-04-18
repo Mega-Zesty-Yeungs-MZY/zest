@@ -287,7 +287,7 @@ java: `true^false`
     <td>FALSE</td>
     <td>FALSE</td> 
     <td>FALSE</td>
-  </tr>
+  </tr> 
 </table>
 
 ### XNOR
@@ -327,4 +327,23 @@ java: `!(true^false)`
 </table>
 
 
+# Hacks:
 
+Complete the following quiz below! Once you are done, take a screen shot of your score, and blog about the questions you got wrong. If you got everything right, reflect a bit on the quiz and congrats! Do a bit more below.
+
+{% include binarylogic.html %}
+
+# Coding Challenges
+
+You can pick one coding challenge to get .9, but if you complete at least one more, you can get up to .1. If you do all three, maybe some extra credit is in order (also if you play the game you may be able to get extra as well.)
+
+1. Download the following **csv file** of data. Iterate over it to find the mean of the data. However, then iterate over it again, with the stipulation that you **cannot have odd numbers**, **if a number is divisible by 5 multiply it by 2**, however, if one number meets *both stipulations*, keep it the same. Print out the mean of all the data, and how many words meet the first criteria 
+2.  <br>
+3. Iterate over the following **txt file**. Create a list. If the word doesn't begin it a, b, c, or d, append it to a list. If the word ends with a, b, c, or d, append it to the list. If one word meets one, but not both of the criteria, add the suffix **ism** to the word and append it to the list. The print out the list.
+4. <br>
+5. Use this data. This is a list of dictionaries containing user data, and tweets made by the user, the likes, etc. Find all words with a length of 4 that are on the date 7/4/1776, about the topic "independence", that do not have the string "loyalty". Then print the list of all these words, with *no repeats*
+
+
+<a href="/game">
+<button>Go to Game</button>
+</a>

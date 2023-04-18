@@ -1,0 +1,17 @@
+ul {
+    list-style-position: inside;
+}
+
+.wrapper {
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+div {
+    overflow: auto;
+}
+
+div.highlight {
+    box-sizing: border-box;
+    padding: 5px;
+}

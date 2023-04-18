@@ -1,0 +1,123 @@
+<html>
+
+<body>
+  <style>
+    body {
+      margin: 0;
+    }
+
+    .container {
+      position: relative;
+    }
+
+    .container .myinput {
+      position: absolute;
+      
+      top: 43.75%;
+      left: 170px;
+      font-size: 30px;
+      width: 113px;
+    }
+    .correct {
+      color: green;
+      font-weight: bold;
+    }
+    .incorrect {
+      color: red;
+      font-weight: bold;
+    }
+  </style>
+  <script>
+    function xor(a, b) {
+      return a ^ b;
+    }
+    function xnor(a, b) {
+      return !(a ^ b);
+    }
+    function and(a, b) {
+      return a && b
+    }
+    function or(a, b) {
+      return a || b
+    }
+    function nand(a, b) {
+      return !(a && b)
+    }
+    function nor(a, b) {
+      return !(a || b)
+    }
+    function inhX(a, b) {
+      return !a && b
+    }
+    function inhY() {
+      return a && !b
+    }
+    function not(a) {
+      return !a
+    }
+    funcs = { "xor": xor, "xnor": xnor, 'and': and, "or": or, "nand": nand, "nor": nor, "Inhibit X": inhX, "Inhibit Y": inhY }
+    key = [{ 'a': 1, "b": 0, 'op': "func" }, { 'a': "output", 'b': 0, 'op': "xor" }]
+    answer = true
+    let output = 0;
+    function submit() {
+      let val = document.getElementById("choice")
+      let elems = document.getElementsByName("dropput");
+      let elemIndex = 0
+      let turnFunc = "this is incorrect";
+      let bigA = 'this is incorrect';
+      let bigB = "this is incorrect";
+      for (let i = 0; i < key.length; i++) {
+        point = key[i]
+        if (point["op"] === "func") {
+          turnFunc = funcs[elems.item(elemIndex).value]
+          elemIndex++;
+
+        }
+        else { turnFunc = funcs[point["op"]] }
+        if (point['a'] === 'output') {
+          bigA = output;
+        }
+        else { bigA = point['a'] }
+        if (point['b'] === 'output') {
+          bigB = output;
+        }
+        else { bigB = point['b'] }
+
+        output = turnFunc(bigA, bigB)
+      }
+      let d = document.getElementById("next")
+      if(output == answer){
+        console.log("correct")
+        d.className = "correct"
+        d.innerHTML = "CORRECT!"
+        d.style.display = ""
+
+      }
+      if(output != answer){
+        d.className = "incorrect"
+        d.innerHTML = "Incorrect, try again"
+        d.style.display = ""
+      }
+    }
+  </script>
+
+
+  <div class="Container">
+    <h1>this exists</h1>
+    <img src="images/levels/level1.png">
+    <div class="">
+    <select class="myinput" id="choice" name="dropput">
+      <option value="xnor">XNOR</option>
+      <option value="nor">NOR</option>
+      <option value="and">AND</option>
+      <option value="xor">XOR</option>
+    </select>
+    </div>
+    <div style="display:inline">
+      <button onclick="submit()">Check</button>
+      <p id="next" style="display:none;">Go to Next Level</p>
+    </div>
+  </div>
+</body>
+
+</html>

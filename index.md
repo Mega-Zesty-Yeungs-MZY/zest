@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="tutorialWrapper">
+    <div class="tutorialBtn" id="tutorialBtn">Click to find tutorials on big idea 1</div> 
+    <div class="tutorialWrapper" id="tutorialWrapper">
         <!-- ! the wrapper have prefix of the website page they represent. -->
         <!-- ! For example: bmath represents binary math tutorial page -->
         <div class="gpWrapper">
@@ -50,7 +51,7 @@
             <div class="fetch">
                 <h2>Want to learn github pages?</h2>
                 <p>Click below to keep learn!</p>
-                <a href="https://mega-zesty-yeungs-mzy.github.io/githubpages" class="button">Track</a>
+                <a href="https://mega-zesty-yeungs-mzy.github.io/zest/githubpages" class="button">Track</a>
             </div>
         </div>
     </div>
