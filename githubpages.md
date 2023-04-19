@@ -34,6 +34,8 @@
                 <li>Hide and/or show code segments and their input and output</li>
                 <li>Collapsable code cells</li>
             </ul></dd>
+            <p>
+            <center><a href="https://q-tipwithaface.github.io/Q-tip/">Click here for a fastpage blog showing off some of the Features of Jupyter Notebooks!</a></center></p>
             <h2>Setting Up With Conda Script</h2>
             <h3>What is Conda Script?</h3>
             <img src="https://elpythonista.com/wp-content/uploads/2020/10/Anaconda-entrada-hd-768x432.jpg" alt="conda script" width="600" height="345">
