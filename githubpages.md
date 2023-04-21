@@ -30,7 +30,6 @@
             <p>
             <dd>Jupyter Notebooks has the following features that can be useful when writing a blog.</dd></p>
             <dd><ul>
-                <li>Interactive features for users</li>
                 <li>Hide and/or show code segments and their input and output</li>
                 <li>Collapsable code cells</li>
             </ul></dd>
