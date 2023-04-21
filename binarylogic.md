@@ -344,6 +344,6 @@ You can pick one coding challenge to get .9, but if you complete at least one mo
 5. Use this data. This is a list of dictionaries containing user data, and tweets made by the user, the likes, etc. Find all words with a length of 4 that are on the date 7/4/1776, about the topic "independence", that do not have the string "loyalty". Then print the list of all these words, with *no repeats*
 
 
-<a href="zest/game">
+<a href="/game">
 <button>Go to Game</button>
 </a>
