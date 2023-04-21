@@ -35,9 +35,9 @@
         </div>
         <div class="blogicWrapper">
             <div class="blogic">
-                <h2>Want to learn github pages?</h2>
-                <p>Click below to keep learn!</p>
-                <a href="https://mega-zesty-yeungs-mzy.github.io/githubpages" class="button">Track</a>
+                <h2>Want to learn fetching and filtering?</h2>
+                <p>Click below to learn!</p>
+                <a href="{{ site.baseurl }}/fetchingandfiltering" class="button">Learn</a>
             </div>
         </div>
         <div class="lgateWrapper">
