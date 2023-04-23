@@ -3,6 +3,7 @@
     <style>
     #info1 {display: none;}
     #info2 {display: none;}
+    #info3 {display: none;}
     </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,7 +27,9 @@
             <center><img src="images/gitpagesetupex.png" alt="Github_Pages_setup_ex"></center>
             <p>
             </p>
-            </span><button onclick="githubFunction()" id="btn1">Read about Github Pages</button>
+            </span><button onclick="githubFunction()" id="btn1">Read about Github Pages!</button>
+            <p>
+            </p>
             <h2><center>Fastpages!</center></h2>
             <p><center><span id="start2"></span><span id="info2">
             <h3 style="background-color:rgb(150, 150, 150);"><center>What is fastpages?</center></h3>
@@ -44,10 +47,20 @@
             </ul></dd>
             <p>
             <center><a href="https://q-tipwithaface.github.io/Q-tip/">Click here for a fastpage blog showing off some of the Features of Jupyter Notebooks!</a></center></p>
-            </span><button onclick="fastpageFunction()" id="btn2">Read about Fastpages</button>
-            <h2>Setting Up With Conda Script</h2>
-            <h3 style="background-color:rgb(150, 150, 150);">What is Conda Script?</h3>
-            <img src="https://elpythonista.com/wp-content/uploads/2020/10/Anaconda-entrada-hd-768x432.jpg" alt="conda script" width="600" height="345">
+            <p>
+            </p>
+            </span><button onclick="fastpageFunction()" id="btn2">Read about Fastpages!</button>
+            <p>
+            </p>
+            <h2><center>Conda Script!</center></h2>
+            <p><center><span id="start3"></span><span id="info3">
+            <h3 style="background-color:rgb(150, 150, 150);"><center>What is Conda Script?</center></h3>
+            <p>
+            <center>Info about conda script.</center></p>
+            <center><img src="https://elpythonista.com/wp-content/uploads/2020/10/Anaconda-entrada-hd-768x432.jpg" alt="conda script" width="600" height="345"></center>
+            <p>
+            </p>
+            </span><button onclick="anacondaFunction()" id="btn3">Read about Conda Script!</button>
         </div>
     </div>
 
@@ -59,7 +72,7 @@ function githubFunction() {
 
   if (start1.style.display === "none") {
     start1.style.display = "inline";
-    btn1.innerHTML = "Read about Github Pages"; 
+    btn1.innerHTML = "Read about Github Pages!"; 
     info1.style.display = "none";
   } else {
     start1.style.display = "none";
@@ -75,12 +88,28 @@ function fastpageFunction() {
 
   if (start2.style.display === "none") {
     start2.style.display = "inline";
-    btn2.innerHTML = "Read about Fastpages"; 
+    btn2.innerHTML = "Read about Fastpages!"; 
     info2.style.display = "none";
   } else {
     start2.style.display = "none";
     btn2.innerHTML = "Close Section Above"; 
     info2.style.display = "inline";
+  }
+}
+
+function anacondaFunction() {
+  var start3 = document.getElementById("start3");
+  var info3 = document.getElementById("info3");
+  var btn3 = document.getElementById("btn3");
+
+  if (start3.style.display === "none") {
+    start3.style.display = "inline";
+    btn3.innerHTML = "Read about Conda Script!"; 
+    info3.style.display = "none";
+  } else {
+    start3.style.display = "none";
+    btn3.innerHTML = "Close Section Above"; 
+    info3.style.display = "inline";
   }
 }
 </script>
