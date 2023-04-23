@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
     <style>
-    #more {display: none;}
+    #info1 {display: none;}
     </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
     <div class="wrapper">
         <div class="introWrap">
             <h2><center>GitHub pages!</center></h2>
-            <p><center><span id="dots"></span><span id="more">
+            <p><center><span id="start1"></span><span id="info1">
             <h3 style="background-color:rgb(150, 150, 150);"><center>What is Github pages?</center></h3>
             <p>
             <center>Github pages is a hosting service website that hosts files created from the given github repository. Github pages can be used by people like you and me to share and present their work for others to see. The websites created consists of files in the programming languages HTML, CSS, and JavaScript. Notice anything about those types of files? Those are the type of files that are used to build our code's frontend. This makes the purpose of Github pages to display and hold a users projects and for them to have access to their own website.</center></p>
@@ -25,7 +25,7 @@
             <center><img src="images/gitpagesetupex.png" alt="Github_Pages_setup_ex"></center>
             <p>
             </p>
-            </span><button onclick="myFunction()" id="myBtn">Read about Github Pages</button>
+            </span><button onclick="githubFunction()" id="btn1">Read about Github Pages</button>
             <h2><center>Fastpages!</center></h2>
             <h3 style="background-color:rgb(150, 150, 150);"><center>What is fastpages?</center></h3>
             <p>
@@ -47,19 +47,19 @@
     </div>
 
 <script>
-function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
+function githubFunction() {
+  var start1 = document.getElementById("start1");
+  var info1 = document.getElementById("info1");
+  var btn1 = document.getElementById("btn1");
 
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read about Github Pages"; 
-    moreText.style.display = "none";
+  if (start1.style.display === "none") {
+    start1.style.display = "inline";
+    btn1.innerHTML = "Read about Github Pages"; 
+    info1.style.display = "none";
   } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Close Section Above"; 
-    moreText.style.display = "inline";
+    start1.style.display = "none";
+    btn1.innerHTML = "Close Section Above"; 
+    info1.style.display = "inline";
   }
 }
 </script>
