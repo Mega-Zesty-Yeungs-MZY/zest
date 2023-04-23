@@ -13,7 +13,7 @@
 <body>
     <div class="wrapper">
         <div class="introWrap">
-            <h2><center>GitHub pages!</center></h2>
+            <h2 style="background-color:rgb(0, 100, 200);"><center>GitHub pages!</center></h2>
             <p><center><span id="start1"></span><span id="info1">
             <h3 style="background-color:rgb(150, 150, 150);"><center>What is Github pages?</center></h3>
             <p>
@@ -30,7 +30,7 @@
             </span><button onclick="githubFunction()" id="btn1">Read about Github Pages!</button>
             <p>
             </p>
-            <h2><center>Fastpages!</center></h2>
+            <h2 style="background-color:rgb(255, 255, 255);"><center>Fastpages!</center></h2>
             <p><center><span id="start2"></span><span id="info2">
             <h3 style="background-color:rgb(150, 150, 150);"><center>What is fastpages?</center></h3>
             <p>
@@ -41,10 +41,12 @@
             <h3 style="background-color:rgb(150, 150, 150);"><center>More about Jupyter Notebooks?</center></h3>
             <p>
             <dd>Jupyter Notebooks has the following features that can be useful when writing a blog.</dd></p>
-            <dd><ul>
-                <li>Hide and/or show code segments and their input and output</li>
-                <li>Collapsable code cells</li>
-            </ul></dd>
+            <dd>
+                <ul>
+                    <li>Hide and/or show code segments and their input and output</li>
+                    <li>Collapsable code cells</li>
+                </ul>
+            </dd>
             <p>
             <center><a href="https://q-tipwithaface.github.io/Q-tip/">Click here for a fastpage blog showing off some of the Features of Jupyter Notebooks!</a></center></p>
             <p>
@@ -52,7 +54,7 @@
             </span><button onclick="fastpageFunction()" id="btn2">Read about Fastpages!</button>
             <p>
             </p>
-            <h2><center>Conda Script!</center></h2>
+            <h2 style="background-color:rgb(80, 195, 50);"><center>Conda Script!</center></h2>
             <p><center><span id="start3"></span><span id="info3">
             <h3 style="background-color:rgb(150, 150, 150);"><center>What is Conda Script?</center></h3>
             <p>
@@ -61,8 +63,6 @@
             <p>
             </p>
             </span><button onclick="anacondaFunction()" id="btn3">Read about Conda Script!</button>
-        </div>
-    </div>
 
 <script>
 function githubFunction() {
@@ -113,5 +113,3 @@ function anacondaFunction() {
   }
 }
 </script>
-</body>
-</html>
