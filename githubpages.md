@@ -25,7 +25,7 @@
             <center><img src="images/gitpagesetupex.png" alt="Github_Pages_setup_ex"></center>
             <p>
             </p>
-            </span></p><button onclick="myFunction()" id="myBtn">Read about Github Pages</button>
+            </span><button onclick="myFunction()" id="myBtn">Read about Github Pages</button>
             <h2><center>Fastpages!</center></h2>
             <h3 style="background-color:rgb(150, 150, 150);"><center>What is fastpages?</center></h3>
             <p>
