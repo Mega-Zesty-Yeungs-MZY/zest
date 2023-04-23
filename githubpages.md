@@ -2,6 +2,7 @@
 <head>
     <style>
     #info1 {display: none;}
+    #info2 {display: none;}
     </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,10 +28,13 @@
             </p>
             </span><button onclick="githubFunction()" id="btn1">Read about Github Pages</button>
             <h2><center>Fastpages!</center></h2>
+            <p><center><span id="start2"></span><span id="info2">
             <h3 style="background-color:rgb(150, 150, 150);"><center>What is fastpages?</center></h3>
             <p>
             <center>Fastpages is a blogging site that is designed to be easy to use in order to create blog posts. A fastpage is reliant on Github pages to host it as well as the Github actions to assist in the creation of the blog and its future changes. Fastpages is an easy to use blogging site but why do we use it for our blog posts? We use Fastpages because it contains Jupyter Notebooks. Fastpages with the help of Github Actions can convert a Jupyter Notebook under the files <code>/_notebook</code>, <code>/_posts</code>, and even <code>/_word</code> into a blog post. This automatically happens through the use of <a href="http://nbdev.fast.ai/index.html">nbdev</a>. This is why fastpages are easy to use for blogging and why the addition of Jupyter Notebooks is important.</center></p>
             <center><img src="https://olearydj.github.io/antisimplistic/images/diagram.png" alt="fastpages" width="600" height="345"></center>
+            <p>
+            </p>
             <h3 style="background-color:rgb(150, 150, 150);"><center>More about Jupyter Notebooks?</center></h3>
             <p>
             <dd>Jupyter Notebooks has the following features that can be useful when writing a blog.</dd></p>
@@ -40,6 +44,7 @@
             </ul></dd>
             <p>
             <center><a href="https://q-tipwithaface.github.io/Q-tip/">Click here for a fastpage blog showing off some of the Features of Jupyter Notebooks!</a></center></p>
+            </span><button onclick="fastpageFunction()" id="btn2">Read about Fastpages</button>
             <h2>Setting Up With Conda Script</h2>
             <h3 style="background-color:rgb(150, 150, 150);">What is Conda Script?</h3>
             <img src="https://elpythonista.com/wp-content/uploads/2020/10/Anaconda-entrada-hd-768x432.jpg" alt="conda script" width="600" height="345">
@@ -60,6 +65,22 @@ function githubFunction() {
     start1.style.display = "none";
     btn1.innerHTML = "Close Section Above"; 
     info1.style.display = "inline";
+  }
+}
+
+function fastpageFunction() {
+  var start2 = document.getElementById("start2");
+  var info2 = document.getElementById("info2");
+  var btn2 = document.getElementById("btn2");
+
+  if (start2.style.display === "none") {
+    start2.style.display = "inline";
+    btn2.innerHTML = "Read about Fastpages"; 
+    info2.style.display = "none";
+  } else {
+    start2.style.display = "none";
+    btn2.innerHTML = "Close Section Above"; 
+    info2.style.display = "inline";
   }
 }
 </script>
