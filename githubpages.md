@@ -43,8 +43,10 @@
             <dd>Jupyter Notebooks has the following features that can be useful when writing a blog.</dd></p>
             <dd>
                 <ul>
-                    <li>Hide and/or show code segments and their input and output</li>
+                    <li>Hiding or showing code outputs</li>
+                    <center><img src="images/hideandshowcodeoutput_Clipchamp_AdobeExpress.gif" alt="hideshowcodeoutput" width="600" height="340"></center>
                     <li>Collapsable code cells</li>
+                    <center><img src="images/showingcollapsablecodecell_Clipchamp_AdobeExpress.gif" alt="collapsablecells" width="600" height="340"></center>
                 </ul>
             </dd>
             <p>
