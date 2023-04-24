@@ -1,4 +1,5 @@
 # Logic Gates
+Logic gates are the fundamental building blocks of digital circuits, and are critical to the functioning of basic computer functions. They are responsible for processing binary data in a computer by performing Boolean logic operations such as AND, OR, NOT, and XOR. By combining multiple logic gates, complex digital circuits can be created that can perform a wide range of operations, from basic arithmetic to complex decision-making processes.
 
 ### AND
 Boolean multiplication corresponds to the logical function of an “AND” gate, as well as to series switch contacts:
@@ -266,9 +267,10 @@ A full-adder circuit consists of two half-adder circuits and an OR gate connecte
 ![]({{ site.baseurl }}/images/Full-Adder.png)
 
 # Hacks
+Answer these questions in your blog:
 
-1. How can logic gates be used to execute basic computer functions?
+1.How can logic gates be used to execute basic computer functions?
 
-2. What is the difference between boolean operations and logic gates?
+2.What is the difference between boolean operations and logic gates?
 
-3. Complete [this quiz](https://www.khanacademy.org/computing/computers-and-internet/xcae6f4a7ff015e7d:computers/xcae6f4a7ff015e7d:logic-gates-and-circuits/e/logic-gates) and correct any mistakes
+3.Complete [this quiz](https://www.khanacademy.org/computing/computers-and-internet/xcae6f4a7ff015e7d:computers/xcae6f4a7ff015e7d:logic-gates-and-circuits/e/logic-gates) and correct any mistakes in your blog

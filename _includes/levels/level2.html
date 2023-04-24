@@ -1,0 +1,136 @@
+<html>
+
+<body>
+  <style>
+    body {
+      margin: 0;
+    }
+
+    .container {
+      position: relative;
+    }
+
+    .container .myinput {
+      position: absolute;
+      
+      top: 43.75%;
+      left: 370px;
+      font-size: 30px;
+      width: 113px;
+    }
+    .container .myinputtwo {
+      position: absolute;
+      top: 43.75%;
+      left: 575px;
+      font-size: 30px;
+      width: 95px;
+    }
+    .correct {
+      color: green;
+      font-weight: bold;
+    }
+    .incorrect {
+      color: red;
+      font-weight: bold;
+    }
+  </style>
+  <script>
+    function xor(a, b) {
+      return a ^ b;
+    }
+    function xnor(a, b) {
+      return !(a ^ b);
+    }
+    function and(a, b) {
+      return a && b
+    }
+    function or(a, b) {
+      return a || b
+    }
+    function nand(a, b) {
+      return !(a && b)
+    }
+    function nor(a, b) {
+      return !(a || b)
+    }
+    function inhX(a, b) {
+      return !a && b
+    }
+    function inhY() {
+      return a && !b
+    }
+    function not(a) {
+      return !a
+    }
+    funcs = { "xor": xor, "xnor": xnor, 'and': and, "or": or, "nand": nand, "nor": nor, "Inhibit X": inhX, "Inhibit Y": inhY }
+    bey = [{ 'a': 1, "b": 0, 'op': "xnor" }, { 'a': 1, 'b': "houtput", 'op': "func" }, {"a":'houtput', 'b': 1, "op":'func'}]
+    answer = true
+    let houtput = 0;
+    function pubmit() {
+      let val = document.getElementById("choice")
+      let elems = document.getElementsByName("dropput");
+      let elemIndex = 0
+      let turnFunc = "this is incorrect";
+      let bigA = 'this is incorrect';
+      let bigB = "this is incorrect";
+      for (let i = 0; i < bey.length; i++) {
+        point = bey[i]
+        if (point["op"] === "func") {
+          turnFunc = funcs[elems.item(elemIndex).value]
+          elemIndex++;
+
+        }
+        else { turnFunc = funcs[point["op"]] }
+        if (point['a'] === 'houtput') {
+          bigA = houtput;
+        }
+        else { bigA = point['a'] }
+        if (point['b'] === 'houtput') {
+          bigB = houtput;
+        }
+        else { bigB = point['b'] }
+
+       houtput = turnFunc(bigA, bigB)
+        console.log(houtput);
+      }
+      let d = document.getElementById("bext")
+      if(houtput == true){
+        console.log("correct")
+        d.className = "correct"
+        d.innerHTML = "CORRECT!"
+        d.style.display = ""
+
+      }
+      if(houtput != true){
+        d.className = "incorrect"
+        d.innerHTML = "Incorrect, try again"
+        d.style.display = ""
+      }
+    }
+  </script>
+
+
+  <div class="Container">
+    <img src="images/levels/level2.png">
+    <div class="">
+    <select class="myinput" id="choice" name="dropput">
+      <option value="xnor">XNOR</option>
+      <option value="nor">NOR</option>
+      <option value="and">AND</option>
+      <option value="xor">XOR</option>
+    </select>
+    <select class="myinputtwo" id="choice" name="dropput">
+        <option value="xnor">XNOR</option>
+        <option value="nor">NOR</option>
+        <option value="and">AND</option>
+        <option value="xor">NAND</option>
+      </select>
+    </div>
+    <div style="display:inline">
+      <button onclick="pubmit()">Check</button>
+      <p id="bext" style="display:none;">Go to Next Level</p>
+    </div>
+  </div>
+</body>
+
+</html>

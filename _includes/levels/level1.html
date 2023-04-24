@@ -13,8 +13,8 @@
     .container .myinput {
       position: absolute;
       
-      top: 43.75%;
-      left: 170px;
+      top: 4%;
+      left: 100px;
       font-size: 30px;
       width: 113px;
     }
@@ -57,7 +57,6 @@
     }
     funcs = { "xor": xor, "xnor": xnor, 'and': and, "or": or, "nand": nand, "nor": nor, "Inhibit X": inhX, "Inhibit Y": inhY }
     key = [{ 'a': 1, "b": 0, 'op': "func" }, { 'a': "output", 'b': 0, 'op': "xor" }]
-    answer = true
     let output = 0;
     function submit() {
       let val = document.getElementById("choice")
@@ -85,15 +84,15 @@
 
         output = turnFunc(bigA, bigB)
       }
-      let d = document.getElementById("next")
-      if(output == answer){
+      let d = document.getElementById("text")
+      if(output == true){
         console.log("correct")
         d.className = "correct"
         d.innerHTML = "CORRECT!"
         d.style.display = ""
 
       }
-      if(output != answer){
+      if(output != true){
         d.className = "incorrect"
         d.innerHTML = "Incorrect, try again"
         d.style.display = ""
@@ -103,7 +102,6 @@
 
 
   <div class="Container">
-    <h1>this exists</h1>
     <img src="images/levels/level1.png">
     <div class="">
     <select class="myinput" id="choice" name="dropput">
@@ -115,7 +113,7 @@
     </div>
     <div style="display:inline">
       <button onclick="submit()">Check</button>
-      <p id="next" style="display:none;">Go to Next Level</p>
+      <p id="text" style="display:none;">Go to Next Level</p>
     </div>
   </div>
 </body>

@@ -43,7 +43,7 @@ function filterdata(data) {
     console.log(data)
 }
 ```
-
+# Filtering Content
 - Let's say that the JSON below is the data that we fetch from the backend
 ```json
 [{"id": 1, "letter": "a"}, {"id": 2, "letter": "b"}, {"id": 3, "letter": "c"}, {"id": 4, "letter": ""}]
@@ -68,7 +68,7 @@ function filter() {
 <body>
     <button onclick="filter()">Filter Data</button>
     <p id="originalData"></p>
-    <p id="filteredData"></p>
+    <p id="filteredData">Filtered Data: </p>
 </body>
 ```
 
