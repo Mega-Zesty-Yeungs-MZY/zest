@@ -50,8 +50,6 @@
                 </ul>
             </dd>
             <p>
-            <center><a href="https://q-tipwithaface.github.io/Q-tip/">Click here for a fastpage blog showing off some of the Features of Jupyter Notebooks!</a></center></p>
-            <p>
             </p>
             </span><button onclick="fastpageFunction()" id="btn2">Read about Fastpages!</button>
             <p>
