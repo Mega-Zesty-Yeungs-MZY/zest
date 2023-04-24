@@ -15,43 +15,43 @@
         <div class="gpWrapper">
             <div class="githubpages">
                 <h2>Want to learn github pages?</h2>
-                <p>Click below to keep learn!</p>
-                <a href="https://mega-zesty-yeungs-mzy.github.io/githubpages" class="button">Track</a>
+                <p>Click below to learn!</p>
+                <a href="{{ site.baseurl }}/githubpages" class="button">Learn</a>
             </div>
         </div>
-        <div class="frontendWrapper">
-            <div class="frontend">
-                <h2>Want to learn github pages?</h2>
-                <p>Click below to keep learn!</p>
-                <a href="https://mega-zesty-yeungs-mzy.github.io/githubpages" class="button">Track</a>
+        <div class="pullreqWrapper">
+            <div class="pr">
+                <h2>Want to learn about pull requests?</h2>
+                <p>Click below to learn!</p>
+                <a href="{{ site.baseurl }}/pullreq" class="button">Learn</a>
             </div>
         </div>
         <div class="bmathWrapper">
             <div class="bmath">
-                <h2>Want to learn github pages?</h2>
-                <p>Click below to keep learn!</p>
-                <a href="https://mega-zesty-yeungs-mzy.github.io/githubpages" class="button">Track</a>
+                <h2>Want to learn about binary math?</h2>
+                <p>Click below to learn!</p>
+                <a href="{{ site.baseurl }}/binarymath" class="button">Learn</a>
             </div>
         </div>
         <div class="blogicWrapper">
             <div class="blogic">
-                <h2>Want to learn fetching and filtering?</h2>
+                <h2>Want to learn binary logic?</h2>
                 <p>Click below to learn!</p>
-                <a href="{{ site.baseurl }}/fetchingandfiltering" class="button">Learn</a>
+                <a href="{{ site.baseurl }}/binarylogic" class="button">Learn</a>
             </div>
         </div>
         <div class="lgateWrapper">
             <div class="lgate">
-                <h2>Want to learn github pages?</h2>
-                <p>Click below to keep learn!</p>
-                <a href="https://mega-zesty-yeungs-mzy.github.io/githubpages" class="button">Track</a>
+                <h2>Want to learn about logic gates?</h2>
+                <p>Click below to learn!</p>
+                <a href="{{ site.baseurl }}/LogicGates" class="button">Learn</a>
             </div>
         </div>
         <div class="fetchWrapper">
             <div class="fetch">
-                <h2>Want to learn github pages?</h2>
-                <p>Click below to keep learn!</p>
-                <a href="https://mega-zesty-yeungs-mzy.github.io/zest/githubpages" class="button">Track</a>
+                <h2>Want to learn fetching and filtering?</h2>
+                <p>Click below to learn!</p>
+                <a href="{{ site.baseurl }}/fetchingandfiltering" class="button">Learn</a>
             </div>
         </div>
     </div>
