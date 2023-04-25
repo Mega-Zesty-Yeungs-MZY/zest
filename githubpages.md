@@ -58,8 +58,8 @@
             <p><center><span id="start3"></span><span id="info3">
             <h3 style="background-color:rgb(150, 150, 150);"><center>What is Conda Script?</center></h3>
             <p>
-            <center>Info about conda script.</center></p>
-            <center><img src="https://elpythonista.com/wp-content/uploads/2020/10/Anaconda-entrada-hd-768x432.jpg" alt="conda script" width="600" height="345"></center>
+            <center>Conda Script is a computer management system that manages open source packages and open source environments for Python and other R programming languages. R programming languages are programming languages that are used to express and show data. The difference between R programming and python is that python can do a larger variety of tasks while R programming only presents data and statistics. Conda makes it so that the packages on a computer can be installed, ran, and stay up to date. It also makes it so that different software environments on a computer can be created and managed.</center></p>
+            <center><img src="images/condacodepic.png" alt="conda script" width="600" height="250"></center>
             <p>
             </p>
             </span><button onclick="anacondaFunction()" id="btn3">Read about Conda Script!</button>
