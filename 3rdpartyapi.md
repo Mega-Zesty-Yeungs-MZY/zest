@@ -112,6 +112,12 @@ fetch('https://api.covid19api.com/summary')
 - Pandas is a package, which contains functions mainly used for data analysis, cleaning, and manipulation
 - Pandas uses other Python libraries such as NumPy, Scikit-learn, and TensorFlow
 
+<style>
+  .purpose {
+    display: none;
+  }
+</style>
+
 <table>
     <thead>
         <tr>
@@ -156,20 +162,22 @@ fetch('https://api.covid19api.com/summary')
 </table>
 
 <button onclick="reveal()">Show Purposes</button>
+
 <script>
-    function reveal() {
-        var x = document.getElementsByTagName("td");
-        for (var i = 0; i < x.length; i++) {
-            if (x[i].getAttribute("class") === "purpose") {
-                if (x[i].style.display === "none") {
-                    x[i].style.display = "table-cell";
-                } else {
-                    x[i].style.display = "none";
-                }
-            }
+  function reveal() {
+    var x = document.getElementsByTagName("td");
+    for (var i = 0; i < x.length; i++) {
+      if (x[i].getAttribute("class") === "purpose") {
+        if (x[i].style.display === "none") {
+          x[i].style.display = "table-cell";
+        } else {
+          x[i].style.display = "none";
         }
+      }
     }
+  }
 </script>
+
 
 # Example 1
 ### Json file:
@@ -239,7 +247,6 @@ fetch('https://api.covid19api.com/summary')
 }
 ```
 ### Python code:
-
 <div style="text-align: center;">
   <img src="{{site.baseurl}}/images/pandas.png" alt="pandascode">
 </div>
@@ -256,14 +263,14 @@ fetch('https://api.covid19api.com/summary')
   const button2 = document.getElementById('showLine2');
   const pandas2 = document.getElementById('line2');
   
-  button.addEventListener('click', () => {
+  button2.addEventListener('click', () => {
     pandas2.style.display = 'block';
     document.getElementById('line2').style.textAlign = 'center';
   });
 </script>
 
 <div style="text-align: center;">
-  <button style="text-align: center; font-size: 20px; color: darkblue;" id="showLine2">Line 3</button>
+  <button style="text-align: center; font-size: 20px; color: darkblue;" id="showLine3">Line 3</button>
 </div>
 <br>
 <div id="line3" style="display: none; flex; justify-content: center;">
@@ -274,7 +281,7 @@ fetch('https://api.covid19api.com/summary')
   const button3 = document.getElementById('showLine3');
   const pandas3 = document.getElementById('line3');
   
-  button.addEventListener('click', () => {
+  button3.addEventListener('click', () => {
     pandas3.style.display = 'block';
     document.getElementById('line3').style.textAlign = 'center';
   });
