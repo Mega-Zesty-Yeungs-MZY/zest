@@ -109,7 +109,69 @@ fetch('https://api.covid19api.com/summary')
 - Allows for accurate, reputable, organized data that generates a reliable representation of whatever it is that will be put through data analysis
 
 > Pandas
-- 
+- Pandas is a package, which contains functions mainly used for data analysis, cleaning, and manipulation
+- Pandas uses other Python libraries such as NumPy, Scikit-learn, and TensorFlow
+
+<table>
+    <thead>
+        <tr>
+            <th>Function</th>
+            <th>Purpose</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>head()</td>
+            <td class="purpose">Returns the first n rows of a DataFrame</td>
+        </tr>
+        <tr>
+            <td>tail()</td>
+            <td class="purpose">Returns the last n rows of a DataFrame</td>
+        </tr>
+        <tr>
+            <td>read_csv()</td>
+            <td class="purpose">Reads a CSV file into a Pandas DataFrame</td>
+        </tr>
+        <tr>
+            <td>dropna()</td>
+            <td class="purpose">Removes rows with null values</td>
+        </tr>
+        <tr>
+            <td>merge()</td>
+            <td class="purpose">Merges two DataFrames based on a specified column</td>
+        </tr>
+        <tr>
+            <td>sort_values()</td>
+            <td class="purpose">Sorts a DataFrame by a specified column</td>
+        </tr>
+        <tr>
+            <td>describe()</td>
+            <td class="purpose">Generates descriptive statistics of a DataFrame</td>
+        </tr>
+        <tr>
+            <td>scatter()</td>
+            <td class="purpose">Create a scatter plot of DataFrame data</td>
+        </tr>
+    </tbody>
+</table>
+
+<button onclick="reveal()">Show Purposes</button>
+<script>
+    function reveal() {
+        var x = document.getElementsByTagName("td");
+        for (var i = 0; i < x.length; i++) {
+            if (x[i].getAttribute("class") === "purpose") {
+                if (x[i].style.display === "none") {
+                    x[i].style.display = "table-cell";
+                } else {
+                    x[i].style.display = "none";
+                }
+            }
+        }
+    }
+</script>
+
+
 
 > Flask
 - 
