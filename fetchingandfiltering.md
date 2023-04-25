@@ -101,7 +101,6 @@ function filter() {
 - Make a button that filters this data in some way that does NOT do the same thing as the example code above
     - This will require usage of HTML and JS
     - Have some kind of output showing the filtered data
-- Style your html elements
-- Bonus: Format the data using JS to make it more readable
+- Bonus: Format the data using JS to make it more readable OR style your html elements
 
 ## Note: Feel free to take inspiration from your CPT projects! This Big Idea and especially this part of it is essentially reviewing the things you did last trimester.
