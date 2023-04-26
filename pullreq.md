@@ -5,7 +5,13 @@
 - Go to the repository you want to contribute to.
 
 - Click on the fork button on the top right corner of the page.
-![Alt text](vscode-local:/c%3A/Users/chara/Pictures/Screenshots/cs/fork.png) 
+
+![Alt text](images/pr/fork.png) 
+
+- make sure you uncheck 'copy main branch only'
+
+![Alt text](images/pr/properfork.png)
+
 ### Step 2:
 - Go to your profile and click on the repository you just forked.
 - **There are many ways to make a pull request, but for simplicity we will use the github website.**
@@ -13,17 +19,33 @@
 ### Step 3:
 - switch to the branch you want to edit (in this case switch to your groups branch)
 
+![Alt text](images/pr/switchbranch.png)
+
 - go to the file you want to edit (make sure you clicked on the right branch)
+
+![Alt text](images/pr/switchfile.png)
 
 - edit the file (hacks.md) and commit the changes
 
+![Alt text](images/pr/commit.png)
+
+![Alt text](images/pr/fincommit.png)
+
 - **You can now start the process of a pull request**
 ### Step 4:
-- Go to the main repository (the one you forked from)
+- Go to the <a href="https://github.com/Mega-Zesty-Yeungs-MZY/prhacks">main repository</a> (the one you forked from)
+
 - Click on the pull request button on the top left corner of the page.
-- Click on the 'New pull request' button.
 
+- Click on the 'New pull request' button or the 'compare and pull request' button.
 
+![Alt text](images/pr/compare.png)
+
+- submit your pull request and wait for approval
+
+![Alt text](images/pr/submitpr.png)
+
+![Alt text](images/pr/approve.png)
 
 <!-- ! second page -->
 <head>
