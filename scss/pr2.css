@@ -1,0 +1,8 @@
+ul {
+    list-style-position: inside;
+  }
+  
+.wrapper {
+    box-sizing: border-box;
+    padding: 10px;
+}
