@@ -275,18 +275,14 @@ Find a third party api and display it in a table
 ### Option 2:
 Take this python table and use a minimum of 3 pandas functions to analyze the data
 
-'''
-
+```
 import pandas as pd
-
 data = {
     'Name': ['Dillon', 'Noor', 'Steven', 'Lucas', 'Harsha', 'Varalu', 'Ryan', 'Emaad'],
     'Age': [24, 31, 42, 27, 29, 26, 90, 15],
     'Gender': ['M', 'M', 'M', 'M', 'F', 'F', 'F', 'F'],
     'Grade': ['A', 'B', 'A', 'D', 'C', 'F', 'B', 'A']
 }
-
 df = pd.DataFrame(data)
 print(df)
-
-'''
+```
