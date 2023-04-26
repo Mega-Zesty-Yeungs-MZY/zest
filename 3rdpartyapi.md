@@ -178,8 +178,12 @@ fetch('https://api.covid19api.com/summary')
   }
 </script>
 
-
 # Example 1
+<div style="text-align: center;">
+  <img src="{{site.baseurl}}/images/pandas2.png" alt="pandascode2">
+</div>
+
+# Example 2
 ### Json file:
 
 ```json
@@ -208,42 +212,6 @@ fetch('https://api.covid19api.com/summary')
         "8": "Sadio Mané",
         "9": "Jan Oblak"
     },
-    "Club": {
-        "0": "Paris Saint-Germain",
-        "1": "Manchester United",
-        "2": "Paris Saint-Germain",
-        "3": "Paris Saint-Germain",
-        "4": "Liverpool",
-        "5": "Manchester City",
-        "6": "Bayern Munich",
-        "7": "Liverpool",
-        "8": "Liverpool",
-        "9": "Atletico Madrid"
-    },
-    "Nationality": {
-        "0": "Argentina",
-        "1": "Portugal",
-        "2": "Brazil",
-        "3": "France",
-        "4": "Egypt",
-        "5": "Belgium",
-        "6": "Poland",
-        "7": "Netherlands",
-        "8": "Senegal",
-        "9": "Slovenia"
-    },
-    "Position": {
-        "0": "Forward",
-        "1": "Forward",
-        "2": "Forward",
-        "3": "Forward",
-        "4": "Forward",
-        "5": "Midfielder",
-        "6": "Forward",
-        "7": "Defender",
-        "8": "Forward",
-        "9": "Goalkeeper"
-    }
 }
 ```
 ### Python code:
