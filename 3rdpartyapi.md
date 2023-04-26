@@ -180,7 +180,10 @@ fetch('https://api.covid19api.com/summary')
 
 # Example 1
 <div style="text-align: center;">
-  <img src="{{site.baseurl}}/images/pandas2.png" alt="pandascode2">
+  <img src="{{site.baseurl}}/images/pandas22.png" alt="pandascode22">
+</div>
+<div style="text-align: center;">
+  <img src="{{site.baseurl}}/images/pandas21.png" alt="pandascode2output">
 </div>
 
 # Example 2
