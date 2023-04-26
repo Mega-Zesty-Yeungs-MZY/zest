@@ -261,47 +261,32 @@ fetch('https://api.covid19api.com/summary')
 - It is designed to be flexible and extensible, allowing developers to add functionality when needed
 
 # Example 
+<div style="text-align: center;">
+  <img src="{{site.baseurl}}/images/flask.png" alt="flaskcode">
+</div>
 
-'''python
+# Hacks
 
-from flask import Blueprint, request, jsonify
-from flask_restful import Api, Resource 
-from datetime import datetime
+## Choose from 1 of 2 of these hacks:
 
-from model.charges import Charges
+### Option 1:
+Find a third party api and display it in a table
 
-charge_api = Blueprint('charge_api', __name__,
-                   url_prefix='/api/charges')
+### Option 2:
+Take this python table and use a minimum of 3 pandas functions to analyze the data
 
-api = Api(charge_api)
+'''
 
-class ChargesAPI:        
-    class _Create(Resource):
-        def post(self):
-            body = request.get_json()     
-            chargetime = body.get('chargetime')
-            if chargetime is None or len(chargetime) < 2:
-                return {'message': f'chargetime is missing, or is less than 2 characters'}, 210
-            car = body.get('car')
-            if car is None or len(car) < 2:
-                return {'message': f'User ID is missing, or is less than 2 characters'}, 210
+import pandas as pd
 
-            uo = Charges(chargetime=chargetime, 
-                      car=car)
-            
-            charge = uo.create()
-   
-            if charge:
-                return jsonify(charge.read())
-            return {'message': f'Processed {chargetime}, either a format error or User ID is duplicate'}, 210
+data = {
+    'Name': ['Dillon', 'Noor', 'Steven', 'Lucas', 'Harsha', 'Varalu', 'Ryan', 'Emaad'],
+    'Age': [24, 31, 42, 27, 29, 26, 90, 15],
+    'Gender': ['M', 'M', 'M', 'M', 'F', 'F', 'F', 'F'],
+    'Grade': ['A', 'B', 'A', 'D', 'C', 'F', 'B', 'A']
+}
 
-    class _Read(Resource):
-        def get(self):
-            charges = Charges.query.all()  
-            json_ready = [charge.read() for charge in charges]  
-            return jsonify(json_ready)  
-
-    api.add_resource(_Create, '/create')
-    api.add_resource(_Read, '/')
+df = pd.DataFrame(data)
+print(df)
 
 '''
