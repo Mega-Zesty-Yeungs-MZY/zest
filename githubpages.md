@@ -4,6 +4,7 @@
     #info1 {display: none;}
     #info2 {display: none;}
     #info3 {display: none;}
+    #info4 {display: none;}
     </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -63,6 +64,13 @@
             <p>
             </p>
             </span><button onclick="anacondaFunction()" id="btn3">Read about Conda Script!</button>
+            <h2 style="background-color:rgb(120, 120, 120);"><center>Hacks!</center></h2>
+			      <p><center><span id="start4"></span><span id="info4">
+            <p>
+            - Github pages is a hosting service website. Search up another hosting service website other than Github's and write at least one benefit, advantage, or feature at is different from other hosting service websites.</p>
+            <p>
+            </p>
+            </span><button onclick="hacksFunction()" id="btn4">Read the Hacks!</button>
 
 <script>
 function githubFunction() {
@@ -110,6 +118,22 @@ function anacondaFunction() {
     start3.style.display = "none";
     btn3.innerHTML = "Close Section Above"; 
     info3.style.display = "inline";
+  }
+}
+
+function hacksFunction() {
+  var start4 = document.getElementById("start4");
+  var info4 = document.getElementById("info4");
+  var btn4 = document.getElementById("btn4");
+
+  if (start4.style.display === "none") {
+    start4.style.display = "inline";
+    btn4.innerHTML = "Read the Hacks!"; 
+    info4.style.display = "none";
+  } else {
+    start4.style.display = "none";
+    btn4.innerHTML = "Close Hacks"; 
+    info4.style.display = "inline";
   }
 }
 </script>
