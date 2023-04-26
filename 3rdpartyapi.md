@@ -263,7 +263,6 @@ fetch('https://api.covid19api.com/summary')
 # Example 
 
 '''
-
 from flask import Blueprint, request, jsonify
 from flask_restful import Api, Resource 
 from datetime import datetime
@@ -272,7 +271,6 @@ from model.charges import Charges
 
 charge_api = Blueprint('charge_api', __name__,
                    url_prefix='/api/charges')
-
 
 api = Api(charge_api)
 
@@ -305,5 +303,4 @@ class ChargesAPI:
 
     api.add_resource(_Create, '/create')
     api.add_resource(_Read, '/')
-
 '''
