@@ -1,10 +1,11 @@
-<!-- ! first page -->
+<head>
+    <link rel="stylesheet" href="scss/pr2.css">
+</head>
+
 # Pull requests
-
 ### Step 1:
-- Go to the repository you want to contribute to.
 
-- Click on the fork button on the top right corner of the page.
+- Go to the repository you want to contribute to. Then click on the fork button on the top right corner of the page.
 
 ![Alt text](images/pr/fork.png) 
 
@@ -14,39 +15,42 @@
 
 ### Step 2:
 - Go to your profile and click on the repository you just forked.
-- **There are many ways to make a pull request, but for simplicity we will use the github website.**
+> **There are many ways to make a pull request, but for simplicity we will do PR's on github**
 
 ### Step 3:
-- switch to the branch you want to edit (in this case switch to your groups branch)
+- Switch to the branch you want to edit (in this case switch to your groups branch)
 
 ![Alt text](images/pr/switchbranch.png)
 
-- go to the file you want to edit (make sure you clicked on the right branch)
+- Go to the file you want to edit (make sure you clicked on the right branch)
 
 ![Alt text](images/pr/switchfile.png)
 
-- edit the file (hacks.md) and commit the changes
+- Edit the file (hacks.md) and commit the changes
 
 ![Alt text](images/pr/commit.png)
 
 ![Alt text](images/pr/fincommit.png)
 
-- **You can now start the process of a pull request**
+> **You can now start the process of a pull request**
+
 ### Step 4:
+
 - Go to the <a href="https://github.com/Mega-Zesty-Yeungs-MZY/prhacks">main repository</a> (the one you forked from)
-
 - Click on the pull request button on the top left corner of the page.
-
 - Click on the 'New pull request' button or the 'compare and pull request' button.
 
 ![Alt text](images/pr/compare.png)
 
-- submit your pull request and wait for approval
+- Submit your pull request
 
 ![Alt text](images/pr/submitpr.png)
 
+- Wait for us to approve the PR (Below is how it looks from our side)
+
 ![Alt text](images/pr/approve.png)
 
+-----------------------------
 <!-- ! second page -->
 <head>
     <meta charset="UTF-8">
@@ -59,12 +63,11 @@
 <body>
     <div class="pull-wrap">
         <div class="pull-header">
-            <h1>Intro to pull requests</h1>
+            <center><h1>Common questions:</h1></center>
         </div>
         <div class="pull-content">
             <!--  -->
             <div class="dropdown-questions">
-                <center><h1>FAQ's<h1><center>
                 <div id="cq1" class="cq1">
                     <h2 id="q1">What are pull requests?</h2>
                     <div id="ans1" class="ans">Pull requests are a developer requesting the project to pull changes that you made to the repository fork.</div>

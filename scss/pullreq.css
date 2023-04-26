@@ -12,8 +12,9 @@
   font-size: 20px;
 }
 
+
 .cq1:hover, .cq2:hover, .cq3:hover, .cq4:hover {
-  background-color: #ddd;
+  background-color: #b4b4b4;
   cursor: pointer;
 }
 
