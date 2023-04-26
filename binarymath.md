@@ -255,6 +255,6 @@ If you create buttons for all three of these (or somehow find a way to combine t
     "- analog and digital representation\n"
 
 
-
+  <a href="{{ site.baseurl }}/game">Head to Game</a>
 
 
