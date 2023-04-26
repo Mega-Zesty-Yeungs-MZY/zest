@@ -1,4 +1,28 @@
 <!-- ! first page -->
+# Pull requests
+
+### Step 1:
+- Go to the repository you want to contribute to.
+
+- Click on the fork button on the top right corner of the page.
+![Alt text](vscode-local:/c%3A/Users/chara/Pictures/Screenshots/cs/fork.png) 
+### Step 2:
+- Go to your profile and click on the repository you just forked.
+- **There are many ways to make a pull request, but for simplicity we will use the github website.**
+
+### Step 3:
+- switch to the branch you want to edit (in this case switch to your groups branch)
+
+- go to the file you want to edit (make sure you clicked on the right branch)
+
+- edit the file (hacks.md) and commit the changes
+
+- **You can now start the process of a pull request**
+### Step 4:
+- Go to the main repository (the one you forked from)
+- Click on the pull request button on the top left corner of the page.
+- Click on the 'New pull request' button.
+
 
 
 <!-- ! second page -->
