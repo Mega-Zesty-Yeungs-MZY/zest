@@ -262,7 +262,7 @@ fetch('https://api.covid19api.com/summary')
 
 # Example 
 
-'''
+'''python
 
 from flask import Blueprint, request, jsonify
 from flask_restful import Api, Resource 
@@ -278,8 +278,7 @@ api = Api(charge_api)
 class ChargesAPI:        
     class _Create(Resource):
         def post(self):
-            body = request.get_json()
-            
+            body = request.get_json()     
             chargetime = body.get('chargetime')
             if chargetime is None or len(chargetime) < 2:
                 return {'message': f'chargetime is missing, or is less than 2 characters'}, 210
@@ -304,5 +303,5 @@ class ChargesAPI:
 
     api.add_resource(_Create, '/create')
     api.add_resource(_Read, '/')
-    
+
 '''
