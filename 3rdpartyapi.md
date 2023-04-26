@@ -255,6 +255,25 @@ fetch('https://api.covid19api.com/summary')
   });
 </script>
 
+<div style="text-align: center;">
+  <button style="text-align: center; font-size: 20px; color: darkblue;" id="Runpandas">Run</button>
+</div>
+<br>
+<div id="pandasoutput" style="display: none; flex; justify-content: center;">
+  <img src="{{site.baseurl}}/images/pandas3.png" alt="pandasoutput">
+</div>
+
+<script>
+  const button4 = document.getElementById('Runpandas');
+  const pandas4 = document.getElementById('pandasoutput');
+  
+  button4.addEventListener('click', () => {
+    pandas4.style.display = 'block';
+    document.getElementById('pandasoutput').style.textAlign = 'center';
+  });
+</script>
+
+
 > Flask
 - Flask is a back-end framework
 - This framework provides tools and libraries for building web applications, including URL routing, templating, request and response handling, and session management 
